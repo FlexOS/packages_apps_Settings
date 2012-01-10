@@ -162,4 +162,7 @@
     <string name="mod_version">FlexOS version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">Unknown</string>
 </resources>
