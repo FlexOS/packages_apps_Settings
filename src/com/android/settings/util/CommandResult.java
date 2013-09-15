@@ -166,3 +166,7 @@ public class CommandResult implements Parcelable {
         return result;
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 601fd01... Add option to Restart SystemUI to DevSettings
