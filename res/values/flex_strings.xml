@@ -240,4 +240,7 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restart SystemUI</string>
+
 </resources>
