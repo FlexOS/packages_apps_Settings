@@ -44,12 +44,6 @@
                 android:summary="@string/live_display_summary"
                 android:fragment="com.android.settings.livedisplay.LiveDisplay" />
 
-        <!-- Display -->
-        <PreferenceScreen
-                android:key="lcd_density"
-                android:fragment="com.android.settings.flex.LCDDensity"
-                android:title="@string/lcd_density" />
-
         <!-- Rotation modes -->
         <PreferenceScreen
                 android:key="display_rotation"
@@ -113,6 +107,12 @@
                 android:summary="@string/wake_when_plugged_or_unplugged_summary"
                 android:defaultValue="false"
                 settings:advanced="true"/>
+
+        <ListPreference
+                android:key="lcd_density"
+                android:title="@string/lcd_density"
+                android:persistent="false"
+                settings:advanced="true" />
 
         <!-- Cast screen -->
         <PreferenceScreen
