@@ -55,6 +55,12 @@
                 android:title="@string/notification_volume_option_title"
                 settings:advanced="true"/>
 
+        <!-- Live volume steps -->
+        <PreferenceScreen
+                android:key="volume_steps_settings"
+                android:fragment="com.android.settings.flex.VolumeSteps"
+                android:title="@string/volume_steps_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
