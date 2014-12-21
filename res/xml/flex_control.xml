@@ -52,4 +52,10 @@
         android:title="@string/screen_and_animations_title"
         android:icon="@drawable/ic_settings_anim" />
 
+    <!-- App circle bar -->
+    <PreferenceScreen
+         android:key="app_circle_bar"
+         android:fragment="com.android.settings.flex.AppCircleBar"
+         android:title="@string/app_circle_bar_title"/>
+
 </PreferenceScreen>
