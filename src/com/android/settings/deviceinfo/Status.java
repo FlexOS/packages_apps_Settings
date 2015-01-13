@@ -42,6 +42,7 @@ import android.telephony.PhoneNumberUtils;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
 import android.telephony.TelephonyManager;
+import android.telephony.SubscriptionManager;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
@@ -656,6 +657,6 @@ public class Status extends PreferenceActivity {
     }
 
     private boolean isMultiSimEnabled() {
-        return (TelephonyManager.getDefault().getPhoneCount() > 1);
+        return (SubscriptionManager.getActiveSubInfoCount() > 1);
     }
 }
