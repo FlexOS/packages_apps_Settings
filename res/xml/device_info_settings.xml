@@ -22,6 +22,12 @@
             android:enabled="false"
             android:layout="@layout/flexos_logo" />
 
+        <!-- Changelog -->
+        <PreferenceScreen 
+            android:key="translator"
+            android:title="@string/changelog_title"
+            android:fragment="com.android.settings.flex.Changelog" />
+		
         <!-- Advanced mode -->
         <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
             android:key="advanced_mode"
