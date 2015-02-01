@@ -709,4 +709,7 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Show four tiles per row</string>
+
 </resources>
