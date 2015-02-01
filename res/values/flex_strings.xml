@@ -552,4 +552,8 @@
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Restart SystemUI</string>
 
+    <!-- QuickSettings tiles -->
+    <string name="qs_screenshot_tile">Screenshot</string>
+    <string name="qs_sync_tile">Sync</string>
+
 </resources>
