@@ -18,6 +18,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_title">
 
+    <!-- Heads up notifications -->
+    <Preference
+         android:key="heads_up_enabled"
+         android:fragment="com.android.settings.flex.HeadsUpSettings"
+         android:title="@string/category_heads_up" />
+
     <!-- Status bar -->
     <PreferenceScreen
         android:key="status_bar_settings"
