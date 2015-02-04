@@ -25,14 +25,20 @@
             android:key="enable_nav_bar"
             android:title="@string/navbar_enable_bar_title"
             android:summary="@string/navbar_enable_bar_summary"
-            android:defaultValue="false" />
- 
+            android:defaultValue="false" /> 
 
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="navigation_bar_left"
             android:title="@string/navigation_bar_left_title"
             android:summary="@string/navigation_bar_left_summary"
-            android:defaultValue="false" />
+            android:defaultValue="false"
+            android:dependency="enable_nav_bar"/>
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="navigation_bar_tint"
+            android:title="@string/navbar_button_tint_title"
+            android:defaultValue="#ffffff"
+            android:dependency="enable_nav_bar"/>
 
     </PreferenceCategory>
 
