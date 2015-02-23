@@ -48,12 +48,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_AM_PM = "status_bar_am_pm";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+    private static final String KEY_CARRIERLABEL_PREFERENCE = "carrier_options";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
+    private PreferenceScreen mCarrierLabel;
+
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
 
@@ -66,6 +69,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
         mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
         mStatusBarAmPm = (ListPreference) findPreference(STATUS_BAR_AM_PM);
+
+        mCarrierLabel = (PreferenceScreen) prefSet.findPreference(KEY_CARRIERLABEL_PREFERENCE);
+        if (Utils.isWifiOnly(getActivity())) {
+            prefSet.removePreference(mCarrierLabel);
+        }
+
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
