@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.flex;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
