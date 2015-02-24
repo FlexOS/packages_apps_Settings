@@ -609,4 +609,7 @@
     <string name="title_pref_menu_display">Menu visibility</string>
     <string name="summary_pref_menu_display">How and when do you want the menu buttons to appear?</string>
 
+    <!-- Quick Settings -->
+    <string name="qs_navbar_tile">Navigation Bar</string>
+
 </resources>

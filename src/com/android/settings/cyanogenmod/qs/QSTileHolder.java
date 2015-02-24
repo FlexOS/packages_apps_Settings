@@ -160,6 +160,10 @@ public class QSTileHolder {
             case QSConstants.TILE_HEADS_UP:
                 resourceName = "ic_qs_heads_up_on";
                 stringId = R.string.qs_tile_heads_up;
+            case QSConstants.TILE_NAVBAR:
+                resourceName = "ic_qs_navbar_on";
+                stringId = R.string.qs_navbar_tile;
+                break;
             default:
                 return null;
         }
