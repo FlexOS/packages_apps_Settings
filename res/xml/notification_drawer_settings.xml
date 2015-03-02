@@ -62,6 +62,12 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/notification_force_expand_title"
+            android:summary="@string/notification_force_expand_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
