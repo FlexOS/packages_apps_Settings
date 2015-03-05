@@ -42,11 +42,15 @@
     <string name="timeout_1000">1 second</string>
     <string name="timeout_500">0,5 second</string>
 
-    <!-- Slim DSLV -->
+    <!-- Slim Shortcuts -->
+    <string name="slim_shortcut_picker">Slim Actions</string>
     <string name="shortcut_action_none">None</string>
     <string name="shortcut_action_app">Custom app</string>
     <string name="shortcut_action_home">Home</string>
     <string name="shortcut_action_back">Back</string>
+    <string name="shortcut_action_kill">Kill app</string>
+    <string name="shortcut_action_lastapp">Last app</string>
+    <string name="shortcut_action_screenshot">Screenshot</string>
     <string name="shortcut_action_menu">Menu</string>
     <string name="shortcut_action_ime">Open IME Switcher</string>
     <string name="shortcut_action_power_menu">Power menu</string>
