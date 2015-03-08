@@ -65,6 +65,12 @@
         android:key="gesture_anywhere"
         android:fragment="com.android.settings.flex.gestureanywhere.GestureAnywhereSettings"
         android:title="@string/gesture_anywhere_title" 
-         android:icon="@drawable/ic_settings_ga" />
+        android:icon="@drawable/ic_settings_ga" />
+
+    <!-- Wakelock Blocker -->
+    <PreferenceScreen
+        android:key="wakelock_blocker"
+        android:fragment="com.android.settings.flex.WakeLockBlocker"
+        android:title="@string/wakelock_blocker_title" />
 
 </PreferenceScreen>
