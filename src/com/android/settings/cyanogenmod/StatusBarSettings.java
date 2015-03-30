@@ -26,6 +26,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -45,6 +46,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
+
 public class StatusBarSettings extends SettingsPreferenceFragment
         implements OnPreferenceChangeListener, Indexable {
 
@@ -57,6 +60,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_DATE_FORMAT = "status_bar_date_format";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+    private static final String KEY_FLEX_LOGO_COLOR = "status_bar_flex_logo_color";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
@@ -73,10 +77,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
 
+    private ColorPickerPreference mFlexLogoColor;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.status_bar_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -142,6 +149,16 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         if (TelephonyManager.getDefault().getPhoneCount() <= 1) {
             removePreference(Settings.System.STATUS_BAR_MSIM_SHOW_EMPTY_ICONS);
         }
+
+        // Flex logo color
+        mFlexLogoColor =
+            (ColorPickerPreference) prefSet.findPreference(KEY_FLEX_LOGO_COLOR);
+        mFlexLogoColor.setOnPreferenceChangeListener(this);
+        int intColor = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_FLEX_LOGO_COLOR, 0xffffffff);
+        String hexColor = String.format("#%08x", (0xffffffff & intColor));
+            mFlexLogoColor.setSummary(hexColor);
+            mFlexLogoColor.setNewPreviewColor(intColor);
     }
 
     @Override
@@ -247,6 +264,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                     resolver, Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, batteryShowPercent);
             mStatusBarBatteryShowPercent.setSummary(
                     mStatusBarBatteryShowPercent.getEntries()[index]);
+            return true;
+        }
+        } else if (preference == mFlexLogoColor) {
+            String hex = ColorPickerPreference.convertToARGB(
+                    Integer.valueOf(String.valueOf(newValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_FLEX_LOGO_COLOR, intHex);
             return true;
         }
         return false;
