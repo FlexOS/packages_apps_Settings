@@ -17,6 +17,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- FlexLogo -->
+        <PreferenceScreen android:key="crdroid_logo"
+            android:enabled="false"
+            android:layout="@layout/crdroid_logo" />
+
         <!-- Advanced mode -->
         <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
             android:key="advanced_mode"
