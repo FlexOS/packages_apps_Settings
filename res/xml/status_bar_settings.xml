@@ -67,7 +67,7 @@
 
     <PreferenceScreen
         android:key="network_traffic_state"
-        android:fragment="com.android.settings.temasek.NetworkTraffic"
+        android:fragment="com.android.settings.flex.NetworkTraffic"
 	android:summary="@string/network_traffic_summary"
 	android:title="@string/network_traffic_title" />
 

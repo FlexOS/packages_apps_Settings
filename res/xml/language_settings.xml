@@ -53,7 +53,7 @@
 
     <PreferenceScreen
         android:key="keyboard_input_settings"
-        android:fragment="com.android.settings.temasek.InputMethodsSettings"
+        android:fragment="com.android.settings.flex.InputMethodsSettings"
         android:title="@string/title_keyboard_input" />
 
     <PreferenceCategory
