@@ -1,4 +1,4 @@
-package com.android.settings.temasek;
+package com.android.settings.flex;
 
 import android.content.Context;
 import android.content.res.TypedArray;

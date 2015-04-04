@@ -8,7 +8,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.flex;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -32,7 +32,7 @@ import android.view.MenuItem;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.flex.SeekBarPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
