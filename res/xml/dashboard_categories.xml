@@ -236,22 +236,12 @@
                 android:icon="@drawable/ic_settings_profiles"
                 />
 
-        <!-- Status bar -->
+        <!-- FlexControl -->
         <dashboard-tile
-                android:id="@+id/status_bar_settings"
-                android:title="@string/status_bar_title"
-                android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
-                android:icon="@drawable/ic_settings_extdesk_hidenavbar"
-                settings:advanced="true"
-                />
-
-        <!-- Notification drawer -->
-        <dashboard-tile
-                android:id="@+id/notification_drawer_settings"
-                android:title="@string/notification_drawer_title"
-                android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
-                android:icon="@drawable/ic_settings_notification_drawer"
-                settings:advanced="true"
+                android:id="@+id/flex_control"
+                android:title="@string/flex_control_title"
+                android:fragment="com.android.settings.flex.FlexControl"
+                android:icon="@drawable/flex"
                 />
 
         <!-- Application Settings -->

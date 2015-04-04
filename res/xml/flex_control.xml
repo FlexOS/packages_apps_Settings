@@ -18,16 +18,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/status_bar_title">
 
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="status_bar_brightness_control"
-        android:title="@string/status_bar_toggle_brightness"
-        android:summary="@string/status_bar_toggle_brightness_summary"
-        android:defaultValue="false" />
+    <!-- Status bar -->
+    <PreferenceScreen
+        android:key="status_bar_settings"
+        android:title="@string/status_bar_title"
+        android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
+        android:icon="@drawable/ic_settings_extdesk_hidenavbar" />
 
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="status_bar_quick_qs_pulldown"
-        android:title="@string/status_bar_quick_qs_pulldown_title"
-        android:summary="@string/status_bar_quick_qs_pulldown_summary"
-        android:defaultValue="true" />
+    <!-- Notification drawer -->
+    <PreferenceScreen
+        android:key="notification_drawer_settings"
+        android:title="@string/notification_drawer_title"
+        android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
+        android:icon="@drawable/ic_settings_notification_drawer" />
 
 </PreferenceScreen>
