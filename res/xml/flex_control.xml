@@ -38,4 +38,10 @@
         android:fragment="com.android.settings.flex.RecentsPanelSettings"
         android:title="@string/recents_panel_title"/>
 
+    <!-- Screen and animations -->
+    <PreferenceScreen
+        android:key="screen_and_animations"
+        android:fragment="com.android.settings.flex.ScreenAndAnimations"
+        android:title="@string/screen_and_animations_title"/>
+
 </PreferenceScreen>
