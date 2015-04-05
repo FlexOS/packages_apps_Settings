@@ -21,9 +21,20 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class FlexControl extends SettingsPreferenceFragment {
 
+    private static final String TAG = "FlexControl";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.flex_control);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        return false;
     }
 }
