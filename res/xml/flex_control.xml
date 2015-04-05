@@ -32,4 +32,10 @@
         android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
         android:icon="@drawable/ic_settings_notification_drawer" />
 
+    <!-- Recent panel settings -->
+    <PreferenceScreen
+        android:key="recents_panel"
+        android:fragment="com.android.settings.flex.RecentsPanelSettings"
+        android:title="@string/recents_panel_title"/>
+
 </PreferenceScreen>
