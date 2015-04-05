@@ -34,6 +34,12 @@
             android:entryValues="@array/listview_interpolator_values"
             android:defaultValue="0" />
 
+        <!-- Screen Recorder -->
+        <PreferenceScreen
+            android:key="screen_recorder"
+            android:title="@string/screen_recorder_title"
+            android:fragment="com.android.settings.temasek.ScreenRecorderSettings" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
