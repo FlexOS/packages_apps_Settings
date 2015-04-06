@@ -22,7 +22,10 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceScreen;
+import android.preference.PreferenceCategory;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.SwitchPreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
@@ -68,6 +71,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.status_bar_settings);
 
         PreferenceCategory mCategory = (PreferenceCategory) findPreference("status_bar");
+        PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
         mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -175,7 +179,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         } else if (preference == mNetworkArrows) {
             Settings.System.putInt(getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_NETWORK_ACTIVITY,
-                    (Boolean) objValue ? 1 : 0);
+                    (Boolean) newValue ? 1 : 0);
             int networkArrows = Settings.System.getInt(getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_NETWORK_ACTIVITY, 1);
             updateNetworkArrowsSummary(networkArrows);
