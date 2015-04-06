@@ -18,7 +18,7 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
-        android:key="nav_bar"
+        android:key="nav_cat"
         android:title="@string/nav_bar_title" >
 
         <SwitchPreference
