@@ -86,7 +86,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
-        PreferenceCategory mCategory = (PreferenceCategory) findPreference("status_bar");
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -99,7 +98,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mCarrierLabel = (PreferenceScreen) prefSet.findPreference(KEY_CARRIERLABEL_PREFERENCE);
         if (Utils.isWifiOnly(getActivity()) || 
         TelephonyManager.getDefault().isMultiSimEnabled()) {
-            mCategory.removePreference(mCarrierLabel);
+            prefSet.removePreference(mCarrierLabel);
         }
 
         // Network arrows
