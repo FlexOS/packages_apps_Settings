@@ -34,7 +34,4 @@ public class FlexControl extends SettingsPreferenceFragment {
         super.onResume();
     }
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        return false;
-    }
 }
