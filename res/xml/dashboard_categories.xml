@@ -241,7 +241,7 @@
                 android:id="@+id/flex_control"
                 android:title="@string/flex_control_title"
                 android:fragment="com.android.settings.flex.FlexControl"
-                android:icon="@drawable/flex"
+                android:icon="@drawable/ic_settings_flex"
                 />
 
         <!-- Application Settings -->
