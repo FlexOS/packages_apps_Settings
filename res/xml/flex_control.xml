@@ -36,12 +36,14 @@
     <PreferenceScreen
         android:key="recents_panel"
         android:fragment="com.android.settings.flex.RecentsPanelSettings"
-        android:title="@string/recents_panel_title"/>
+        android:title="@string/recents_panel_title" 
+        android:icon="@drawable/ic_settings_recents" />
 
     <!-- Screen and animations -->
     <PreferenceScreen
         android:key="screen_and_animations"
         android:fragment="com.android.settings.flex.ScreenAndAnimations"
-        android:title="@string/screen_and_animations_title"/>
+        android:title="@string/screen_and_animations_title"
+        android:icon="@drawable/ic_settings_anim" />
 
 </PreferenceScreen>
