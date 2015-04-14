@@ -421,4 +421,8 @@
     <string name="mount_notification_title">Mount notification</string>
     <string name="mount_notification_summary">Display ongoing notification for mounted storage</string>
 
+   <!-- Instant reboot -->
+   <string name="advanced_reboot_oneclick">One click reboot</string>
+   <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
+
 </resources>
