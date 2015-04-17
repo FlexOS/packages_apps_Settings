@@ -58,10 +58,4 @@
          android:fragment="com.android.settings.flex.AppCircleBar"
          android:title="@string/app_circle_bar_title"/>
 
-    <!-- Gesture anywhere -->
-    <PreferenceScreen
-         android:key="gesture_anywhere"
-         android:fragment="com.android.settings.flex.gestureanywhere.GestureAnywhereSettings"
-         android:title="@string/gesture_anywhere_title" />
-
 </PreferenceScreen>

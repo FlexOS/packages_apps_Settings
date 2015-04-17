@@ -157,8 +157,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     }
 
     @Override
+    AlertDialog dialog;
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        AlertDialog dialog;
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mStatusBarClock) {
             int clockStyle = Integer.parseInt((String) newValue);
