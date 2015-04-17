@@ -1,5 +1,5 @@
 /*
-* Copyright (C) 2014 The CyanogenMod Project
+* Copyright (C) 2014 The FlexOS Project
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -13,13 +13,20 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
+
 package com.android.settings.flex;
 
 import android.os.Bundle;
-import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+import android.content.res.Resources;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 
-public class FlexControl extends SettingsPreferenceFragment {
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.R;
+import android.provider.Settings;
+
+public class FlexControl extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "FlexControl";
 
