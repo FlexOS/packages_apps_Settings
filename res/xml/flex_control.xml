@@ -57,7 +57,12 @@
     <PreferenceScreen
          android:key="app_circle_bar"
          android:fragment="com.android.settings.flex.AppCircleBar"
-         android:title="@string/app_circle_bar_title"
-         android:icon="@drawable/ic_circlebar_settings" />
+         android:title="@string/app_circle_bar_title"/>
+
+    <!-- Gesture anywhere -->
+    <PreferenceScreen
+        android:key="gesture_anywhere"
+        android:fragment="com.android.settings.flex.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title" />
 
 </PreferenceScreen>
