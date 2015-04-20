@@ -52,7 +52,12 @@
   <string name="profile_populate_profile_from_state">Geçerli cihaz ayarları kullanılarak profil yapılandırılsın mı?</string>
   <string name="profile_menu_fill_from_state">Geçerli cihaz ayarlarını al</string>
   <string name="profile_remove_current_profile">Geçerli profil silinemez!</string>
+  <string name="profile_app_group_category_title">Bildirimleri geçersiz kıl</string>
   <string name="profile_app_group_item_instructions">Grupları ekle veya kaldır</string>
+  <string name="profile_app_group_item_instructions_summary">Grup ekleme / kaldırma bildirimi bu profilin uygulama gruplarını geçersiz kılar</string>
+  <string name="profile_entries_on">Açık</string>
+  <string name="profile_entries_off">Kapalı</string>
+  <string name="profile_entries_no_override">Değişiklik yok</string>
   <string name="profile_name_title">İsim</string>
   <string name="new_profile_name">&lt;yeni profil&gt;</string>
   <string name="rename_dialog_title">Yeniden adlandır</string>
@@ -81,6 +86,9 @@
   <string name="profile_lockmode_insecure_summary">PIN veya şifre sorma</string>
   <string name="profile_lockmode_disabled_summary">Kilit ekranını devre dışı bırak</string>
   <string name="profile_airplanemode_title">Uçak modu</string>
+  <string name="profile_brightness_title">Ekran parlaklığı</string>
+  <string name="profile_brightness_override_summary">%1$d%% ayarlandı</string>
+  <string name="profile_brightness_override_checkbox_label">Parlaklığı geçersiz kıl</string>
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Taşınabilir Wi\u2011Fi bağlantı noktası</string>
   <string name="toggleBluetooth">Bluetooth</string>
@@ -151,7 +159,6 @@
   <string name="sunlight_enhancement_summary">Parlak güneş ışığı altında ekran parlaklığını ve okunabilirliği geliştirir</string>
   <string name="color_enhancement_title">Renk iyileştirmesi</string>
   <string name="color_enhancement_summary">Ekran rengini dinamik olarak geliştir</string>
-  <string name="app_security_title">Uygulama güvenliği</string>
   <string name="blacklist_title">Kara liste</string>
   <string name="blacklist_edit_dialog_title">Kara liste girişini düzenle</string>
   <string name="blacklist_prefs">Ayarlar</string>
@@ -296,6 +303,7 @@
   <string name="status_bar_show_unused_sims_title">Boş SIM simgelerini göster</string>
   <string name="status_bar_show_unused_sims_title_summary_off">Kullanılmayan SIM yuvalarının simgelerini gizle</string>
   <string name="status_bar_show_unused_sims_title_summary_on">Kullanılmayan SIM yuvalarını göster</string>
+  <string name="sim_name_hint">SIM adı girin</string>
   <string name="edit_light_settings">Işık ayarlarını düzenle</string>
   <string name="pulse_speed_title">Yanma hızı ve süresi</string>
   <string name="default_time">Normal</string>
@@ -328,6 +336,8 @@
   <string name="notification_light_missed_call_title">Cevapsız arama</string>
   <string name="notification_light_voicemail_title">Sesli mesaj</string>
   <string name="notification_ringtone_title_cm">Bildirim tonu</string>
+  <string name="headset_connect_player_title">Müzik uygulamasını başlat</string>
+  <string name="headset_connect_player_summary">Kulaklık bağlandığında müzik uygulamasını başlatır</string>
   <string name="ime_switcher_notify">Seçici simgesi</string>
   <string name="ime_switcher_notify_summary">Giriş yöntemi seçici simgesini görüntüle</string>
   <string name="app_notification_show_on_keyguard_title">Kilit ekranında göster</string>
@@ -477,6 +487,22 @@
   <string name="profile_setup_setup_triggers_title_config">Tetikleyicileri değiştir: <xliff:g id="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">Adım 2: Eylemleri kurun</string>
   <string name="profile_setup_actions_title_config">Eylemleri tekrar ayarla</string>
+  <string name="profile_appgroups_manage">Uygulama grupları</string>
+  <string name="profile_appgroup_manage">Uygulama grubunu yönet</string>
+  <string name="profile_appgroups_title">Uygulama grupları</string>
+  <string name="profile_new_appgroup">Yeni uygulama grubu</string>
+  <string name="profile_delete_appgroup">Uygulama grubu silinsin mi?</string>
+  <string name="profile_appgroup_name_prompt">Yeni uygulama grubu için bir isim girin</string>
+  <string name="profile_appgroup_name_title">İsim</string>
+  <string name="duplicate_appgroup_name">Tekrarlayan uygulama grup ismi!</string>
+  <string name="profile_app_delete_confirm">Uygulama silinsin mi?</string>
+  <string name="sound_mode">Bildirim modu</string>
+  <string name="ringer_mode">Zil sesi modu</string>
+  <string name="lights_mode">Işık modu</string>
+  <string name="vibrate_mode">Titreşim modu</string>
+  <string name="choose_soundtone">Bildirim tonunu seçin</string>
+  <string name="choose_ringtone">Zil sesini seçin</string>
+  <string name="soundtone_title">Bildirim tonu</string>
   <string name="no_bluetooth_triggers">Eşleştirilmiş bluetooth aygıtı yok.\nTetikleyicileri yapılandırmadan önce Bluetooth cihazı ile eşleştirmek için dokunun.</string>
   <string name="no_wifi_triggers">Hiç  Wi\u2011Fi erişim noktası yapılandırılmadı.\nTetikleyicileri yapılandırmadan önce  Wi\u2011Fi ağına bağlanmak için dokunun.</string>
   <string name="no_triggers_configured">Hiç tetikleyici ayarlanmadı. Eklemek için dokunun.</string>
@@ -547,6 +573,12 @@
   <string name="subs_settings">SIM kart durumu</string>
   <string name="storage_usb">USB bellek</string>
   <string name="storage_uicc">UICC bellek</string>
+  <string name="sdcard_eject" product="default">SD kartın bağlantısını kes</string>
+  <string name="sdcard_eject_summary" product="default">Güvenle kaldırabilmeniz için SD kartın bağlantısını kesin</string>
+  <string name="sd_card_format" product="default">SD kartı sil</string>
+  <string name="sd_card_format_summary" product="default">SD kartta bulunan müzik ve fotoğraf gibi tüm verileri siler</string>
+  <string name="sdcard_mount" product="default">SD kartı bağla</string>
+  <string name="sdcard_insert_summary" product="default">Bağlamak için SD kartı yerleştirin</string>
   <string name="usb_eject" product="default">USB belleği çıkar</string>
   <string name="usb_eject_summary" product="default">Güvenle çıkarabilmeniz için  USB belleğin bağlantısını kesin</string>
   <string name="usb_format" product="default">USB belleği sil</string>
@@ -561,22 +593,36 @@
   <string name="uicc_insert_summary" product="default">Bağlamak için UICC belleğini takın</string>
   <string name="usb_settings_enable_ums_title">Yığın depolama etkinleştirilsin mi?</string>
   <string name="usb_settings_enable_ums_message">Sistem bileşenleri ve uygulamaları her zaman mevcut olan birincil depolamayı kullanırlar. Bu özellik ilgili işlevi bozar. Bunun yerine MTP kullanmanız önerilir. Yığın depolamayı etkinleştirmek istediğinizden emin misiniz?</string>
+  <string name="dlg_confirm_sdcard_unmount_title" product="default">SD kartın bağlantısı kesilsin mi?</string>
   <string name="dlg_confirm_usb_unmount_title" product="default">USB belleğin bağlantısı kesilsin mi?</string>
   <string name="dlg_confirm_uicc_unmount_title" product="default">UICC belleğin bağlantısı kesilsin mi?</string>
+  <string name="dlg_confirm_sdcard_unmount_text" product="default">SD kartın bağlantısını kestiğinizde, yeniden bağlanılana kadar kullandığınız bazı uygulamalar duracak ve kullanılamayacak.</string>
   <string name="dlg_confirm_usb_unmount_text" product="default">USB belleğin bağlantısını kestiğinizde, yeniden bağlanılana kadar kullandığınız bazı uygulamalar duracak ve kullanılamayacak.</string>
   <string name="dlg_confirm_uicc_unmount_text" product="default">UICC belleğin bağlantısını kestiğinizde, yeniden bağlanılana kadar kullandığınız bazı uygulamalar duracak ve kullanılamayacak.</string>
+  <string name="dlg_error_sdcard_unmount_text" product="default">SD kartın bağlantısı kesilemedi. Sonra tekrar deneyin.</string>
   <string name="dlg_error_usb_unmount_text" product="default">USB belleğin bağlantısı kesilemedi. Sonra tekrar deneyin.</string>
   <string name="dlg_error_uicc_unmount_text" product="default">UICC belleğin bağlantısı kesilemedi. Sonra tekrar deneyin.</string>
+  <string name="sdcard_unmount_inform_text" product="default">SD kartın bağlantısı kesilecek.</string>
   <string name="usb_unmount_inform_text" product="default">USB belleğin bağlantısı kesilecek.</string>
   <string name="uicc_unmount_inform_text" product="default">UICC belleğin bağlantısı kesilecek.</string>
+  <string name="sdcard_media_format_desc" product="default">Tüm SD kart silinsin mi? Saklanan <b>tüm</b> verileri kaybedeceksiniz!</string>
   <string name="usb_media_format_desc" product="default">USB bellek silinsin mi? Bellekteki <b>tüm</b> verilerinizi kaybedeceksiniz!</string>
   <string name="uicc_media_format_desc" product="default">UICC bellek silinsin mi? Bellekteki <b>tüm</b> verilerinizi kaybedeceksiniz!</string>
+  <string name="sdcard_media_format_button_text" product="default">SD kartı sil</string>
   <string name="usb_media_format_button_text" product="default">USB belleği sil</string>
   <string name="uicc_media_format_button_text" product="default">UICC belleği sil</string>
+  <string name="sdcard_media_format_final_desc" product="default">SD kart silinsin mi? Depolanan tüm veriler silinecektir. Bu eylemi geri alamazsınız!</string>
   <string name="usb_media_format_final_desc" product="default">USB bellek silinsin mi? Depolanan tüm veriler silinecektir. Bu eylemi geri alamazsınız!</string>
   <string name="uicc_media_format_final_desc" product="default">UICC bellek silinsin mi? Depolanan tüm veriler silinecektir. Bu eylemi geri alamazsınız!</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">SD kart birimini silmek istediğinizi onaylamak için kilit açma şeklini çizmeniz gerekir.</string>
   <string name="usb_media_format_gesture_explanation" product="default">USB bellek birimini silmek istediğinizi onaylamak için kilit açma desenini çizmeniz gerekir.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">UICC bellek birimini silmek istediğinizi onaylamak için kilit açma desenini çizmeniz gerekir.</string>
+  <string name="internal_sd_format">Dahili ortam belleğini sil</string>
+  <string name="internal_sd_format_summary">Dahili ortam belleğindeki müzik ve fotoğraf gibi tüm verileri siler</string>
+  <string name="master_clear_desc_erase_internal_storage">\n\nMüzik, resim ve diğer kullanıcı verilerini temizlemek için <b>dahili ortam belleği</b> silinmeli.</string>
+  <string name="erase_internal_storage">Dahili ortam belleğini sil</string>
+  <string name="erase_internal_storage_description">Dahili ortam belleğindeki müzik ve fotoğraf gibi tüm verileri sil</string>
+  <string name="storage_rescan_media">Depolama biriminde ortam ögelerini yeniden ara</string>
   <string name="location_category_enhanced_location">Gelişmiş konum (IZat)</string>
   <string name="app_ops_settings_summary">Uyg. izinlerini görüntüle ya da değiştir</string>
   <string name="enable_adb_summary_charging">Cihaz Şarj modunda, USB hata ayıklaması devre dışı bırakıldı</string>
@@ -603,10 +649,6 @@
   <string name="usb_sdcard_summary">SD kartınızı flash aygıtı şeklinde bağlayarak bilgisayarınız arasında dosya paylaşmanızı sağlar</string>
   <string name="external_storage_turn_on">Harici depolama açıldı</string>
   <string name="external_storage_turn_off">Harici depolama kapatıldı</string>
-  <string name="menu_hidden_apps_delete">Sıfırla</string>
-  <string name="menu_hidden_apps_reset_lock">Desen kilidini sıfırla</string>
-  <string name="protected_apps">Korunan uygulamalar</string>
-  <string name="saving_protected_components">Bileşen durumu kaydediliyor\u2026</string>
   <string name="stats_collection_title">İstatistikler</string>
   <string name="stats_collection_summary">Etkinleştirildiğinde metrik istatistiklere izin verir</string>
   <string name="power_notifications_category_title">Güç sesleri</string>
@@ -645,6 +687,8 @@
   <string name="cmlicense_title">CyanogenMod Yasal</string>
   <string name="settings_cmlicense_activity_title">CyanogenMod Yasal</string>
   <string name="settings_cmlicense_activity_unreachable">Veri bağlantınız yok. Bu bilgiyi görüntülemek için internete bağlı herhangi bir bilgisayardan %s adresine gidin.</string>
+  <string name="lockpattern_settings_enable_error_path_title">Desen hatasını göster</string>
+  <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
   <string name="unlock_quick_unlock_control_title">Hızlı kilit aç</string>
   <string name="unlock_quick_unlock_control_summary">Doğru PIN/şifre girildiğinde otomatik olarak kilidi aç</string>
   <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
@@ -652,7 +696,7 @@
   <string name="link_volume_option_title">Zil sesi &amp; bildirim sesi düzeyini bağla</string>
   <string name="notification_volume_option_title">Bildirim sesi</string>
   <string name="notification_drawer_title">Bildirim çekmecesi</string>
-  <string name="quick_pulldown_title">Hızlı aşağı çekiş</string>
+  <string name="quick_pulldown_title">Hızlı aşağı çekme</string>
   <string name="quick_pulldown_summary">Durum çubuğunun %1$s tarafından aşağı çekince Hızlı Ayarlar açılır</string>
   <string name="quick_pulldown_summary_left">Sol</string>
   <string name="quick_pulldown_summary_right">Sağ</string>
@@ -686,6 +730,7 @@
   <string name="qs_tile_lockscreen">Kilit ekranı</string>
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">Ekran zaman aşımı</string>
+  <string name="qs_tile_usb_tether">USB İnternet Paylaşımı</string>
   <string name="qs_main_tiles_title">İlk satırı büyüt</string>
   <string name="qs_main_tiles_summary_on">İlk satırdaki iki ana kare</string>
   <string name="qs_main_tiles_summary_off">Her satırdaki üç kare</string>
@@ -701,6 +746,8 @@
   <string name="wifi_mhz">Mhz</string>
   <string name="maximum_head_level">Baş: %1$s W/kg</string>
   <string name="maximum_body_level">Vücut: %1$s W/kg</string>
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
   <string name="power_menu_expanded_desktop">Genişletilmiş Masaüstü</string>
   <string name="expanded_hide_nothing">Hiçbir şey gizleme</string>
   <string name="expanded_hide_status">Durum çubuğunu gizle</string>
@@ -711,11 +758,13 @@
   <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
   <string name="expanded_desktop_style_description">Varsayılan genişletilmiş masaüstü stilini seçin</string>
   <string name="expanded_desktop_title">Genişletilmiş masaüstü seçeneklerini</string>
+  <string name="title_general">Genel</string>
   <string name="lockscreen_targets_message">Kilit ekranı kısayolları</string>
   <string name="lockscreen_default_target">Varsayılan</string>
   <string name="lockscreen_none_target">Yok</string>
   <string name="lockscreen_message">Kilit ekranı kısayollarını ayarlamak için sağ ya da soldaki simgeye dokunun.</string>
   <string name="lockscreen_choose_action_title">İşlev seçin</string>
+  <string name="lockscreen_visualizer_title">Müzik görselleştiriciyi görüntüle</string>
   <string name="whisperpush_title">WhisperPush</string>
   <string name="whisperpush_summary">Güvenli SMS ayarlarını yönet</string>
   <string name="navigation_ring_title">Dolaşım halkası uygulamaları</string>
@@ -743,6 +792,7 @@
   <string name="stylus_app_not_installed">%s yüklü değil</string>
   <string name="advanced">Gelişmiş</string>
   <string name="advanced_mode_title">Gelişmiş mod</string>
+  <string name="advanced_mode_summary">Çeşitli ayar menülerinde cihazınız için ek seçenekler gösterir</string>
   <string name="category_misc">Çeşitli</string>
   <string name="category_vibrate">Titreşim</string>
   <string name="category_volume">Ses</string>
@@ -757,5 +807,22 @@
   <string name="recents_show_searchbar">Son uygulamalar menüsünde arama çubuğu göster</string>
   <string name="keywords_recents_show_searchbar">arama etkin devre dışı arama çubuğu göster gizle son uygulamalar</string>
   <string name="sim_ringtone_title">SIM %d zil sesi</string>
+  <string name="interruptions_ignore_while_media_title">Ses yankılanmasını önle</string>
+  <string name="interruptions_ignore_while_media_summary">Bir bildirim geldiğinde medya oynatma ses seviyesini azaltma</string>
   <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğu azaltmak için gün ve ortam koşulları zamanına bağlı olarak ekranı iyileştirir</string>
+  <string name="live_display_mode">Görüntü modu</string>
+  <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
+  <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+  <string name="live_display_day">Gündüz</string>
+  <string name="live_display_night">Gece</string>
+  <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
+  <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında otomatik parlaklığı ve doygunluğu arttırır</string>
+  <string name="live_display_low_power_title">Güç tüketimini azalt</string>
+  <string name="live_display_low_power_summary">Ekranı bozulma olmadan en düşük güç tüketimi için ayarlar</string>
+  <string name="live_display_enhance_color_title">Renkleri geliştir</string>
+  <string name="live_display_enhance_color_summary">Ten tonları, sahne ve diğer görüntülerin renk titreşimini geliştirir</string>
+  <string name="battery_saver_threshold">Pil tasarruf eşiği</string>
+  <string name="battery_saver_summary">Performansı düşürür ve arka plan verilerini sınırlar</string>
+  <string name="battery_saver_summary_unavailable">Şarj sırasında kullanılabilir değil</string>
 </resources>
