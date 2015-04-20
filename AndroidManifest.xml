@@ -2271,8 +2271,8 @@
                        android:resource="@id/lockscreen_settings" />
         </activity>
 
-        <activity android:name=".temasek.gestureanywhere.GestureAnywhereBuilderActivity" />
-        <activity android:name=".temasek.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+        <activity android:name=".flex.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".flex.gestureanywhere.GestureAnywhereCreateGestureActivity" />
 
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
