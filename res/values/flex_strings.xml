@@ -413,7 +413,7 @@
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
 
     <!-- Animation Control -->
-    <string name="screen_and_animations_title">Animation Control</string>
+    <string name="screen_and_animations_title">Animation control</string>
 
     <!-- Storage Notification Enhancement -->
     <string name="storage_options_category">Notifications</string>
