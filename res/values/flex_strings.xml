@@ -27,7 +27,6 @@
     <string name="dialog_restart">Restart</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="extras_temasek_settings">temasek extras</string>
 
     <!-- FlexOS Version -->
     <string name="flex_version">FlexOS version</string>
