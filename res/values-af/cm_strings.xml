@@ -52,6 +52,12 @@
   <string name="profile_populate_profile_from_state">Konfigureer profiel instellings van huidige toestel?</string>
   <string name="profile_menu_fill_from_state">Voer instellings in van huidige toestel instellings</string>
   <string name="profile_remove_current_profile">Kan nie huidige profiel verwyder nie!</string>
+  <string name="profile_app_group_category_title">Kennisgewing veranderings</string>
+  <string name="profile_app_group_item_instructions">Voegby of verwyder groepe</string>
+  <string name="profile_app_group_item_instructions_summary">Voegby of verwyder, kennisgewing veranderings program groepe, na hierdie profiel</string>
+  <string name="profile_entries_on">Aan</string>
+  <string name="profile_entries_off">Af</string>
+  <string name="profile_entries_no_override">Geen verstelling</string>
   <string name="profile_name_title">Naam</string>
   <string name="new_profile_name">&lt;nuwe profiel&gt;</string>
   <string name="rename_dialog_title">Hernoem</string>
@@ -80,6 +86,9 @@
   <string name="profile_lockmode_insecure_summary">Moenie vra nie vir PIN of wagwoord</string>
   <string name="profile_lockmode_disabled_summary">Deaktiveer slot skerm</string>
   <string name="profile_airplanemode_title">Vliegtuigmodus</string>
+  <string name="profile_brightness_title">Skerm helderheid</string>
+  <string name="profile_brightness_override_summary">Stel na %1$d%%</string>
+  <string name="profile_brightness_override_checkbox_label">Verander helderheid</string>
   <string name="toggleWifi">Wi\u2011Fi</string>
   <string name="toggleWifiAp">Draagbare Wi\u2011Fi warmkol</string>
   <string name="toggleBluetooth">Bluetooth</string>
@@ -150,7 +159,6 @@
   <string name="sunlight_enhancement_summary">Verbeter helderheid van die skerm en leesbaarheid onder helder sonlig</string>
   <string name="color_enhancement_title">Kleur verbetering</string>
   <string name="color_enhancement_summary">Dinamiese verbeter die kleur van die skerm</string>
-  <string name="app_security_title">Program sekuriteit</string>
   <string name="blacklist_title">Blokkeerlys</string>
   <string name="blacklist_edit_dialog_title">Wysig blokkeerlys inskrywing</string>
   <string name="blacklist_prefs">Instellings</string>
@@ -217,6 +225,7 @@
   <string name="contributor_cloud_title">Bydraers</string>
   <string name="phone_service_state">Stem: <xliff:g id="voice_state">%1$s</xliff:g>, data: <xliff:g id="data_state">%2$s</xliff:g></string>
   <string name="double_tap_to_wake_title">Klop-Klop wakker instelling</string>
+  <string name="double_tap_to_wake_summary">Dubbel klop op die skerm om dit aan te skakel</string>
   <string name="proximity_wake_title">Voorkom toevallige wakker word</string>
   <string name="proximity_wake_summary">Gaan die nabyheid sensor na voordat die skerm wakker gemaak word</string>
   <string name="privacy_settings_cyanogenmod_title">Privaatheid</string>
@@ -246,6 +255,7 @@
   <string name="development_shortcut_title">Ontwikkeling kortpad</string>
   <string name="development_shortcut_summary">Aktiveer program bestuur kortpaaie in onlangse program lys</string>
   <string name="double_tap_to_sleep_title">Klop-Klop om te slaap</string>
+  <string name="double_tap_to_sleep_summary">Dubbel klop op die statusbalk om skerm af te skakel</string>
   <string name="wake_when_plugged_or_unplugged_title">Word wakker op in/uit prop</string>
   <string name="wake_when_plugged_or_unplugged_summary">Skakel die skerm aan met die koppeling of ontkoppeling van \'n kragbron</string>
   <string name="kill_app_longpress_back">Beëindig met Terug-knoppie</string>
@@ -263,6 +273,7 @@
   <string name="navigation_bar_reset_message">Verwyder huidige instellings en herstel na standaard uitleg?</string>
   <string name="navigation_bar_arrow_keys_title">Wys pyltjie sleutels terwyl tik</string>
   <string name="navigation_bar_arrow_keys_summary">Wys links en regs wyser knoppies terwyl tik. Oorskryf IME wisselaar.</string>
+  <string name="navigation_bar_recents_title">Onlangse lang druk aksie</string>
   <string name="header_category_personalization">Verpersoonliking</string>
   <string name="status_bar_title">Statusbalk</string>
   <string name="status_bar_toggle_brightness">Helderheid beheer</string>
@@ -289,6 +300,10 @@
   <string name="status_bar_battery_percentage_default">Versteek</string>
   <string name="status_bar_battery_percentage_text_inside">Binne-in die ikoon</string>
   <string name="status_bar_battery_percentage_text_next">Langs die ikoon</string>
+  <string name="status_bar_show_unused_sims_title">Wys leë SIM ikone</string>
+  <string name="status_bar_show_unused_sims_title_summary_off">Steek ongebruikte SIM ikone weg</string>
+  <string name="status_bar_show_unused_sims_title_summary_on">Wys ongebruikte SIM gleuwe</string>
+  <string name="sim_name_hint">Tik die SIM naam in</string>
   <string name="edit_light_settings">&gt;Verander liggie instellings</string>
   <string name="pulse_speed_title">Flikker lengte en spoed</string>
   <string name="default_time">Normaal</string>
@@ -321,6 +336,8 @@
   <string name="notification_light_missed_call_title">Oproep gemis</string>
   <string name="notification_light_voicemail_title">Stempos</string>
   <string name="notification_ringtone_title_cm">Kennisgewingtoon</string>
+  <string name="headset_connect_player_title">Begin musiek program</string>
+  <string name="headset_connect_player_summary">Begin die standaard musiek program wanneer oorfone gekoppel word</string>
   <string name="ime_switcher_notify">Selektor ikoon</string>
   <string name="ime_switcher_notify_summary">Wys invoer metode selektor ikoon</string>
   <string name="app_notification_show_on_keyguard_title">Vertoon op slotskerm</string>
@@ -329,6 +346,8 @@
   <string name="app_notification_no_ongoing_on_keyguard_summary">Moet nooit aanhoudende kennisgewings vertoon vanuit hierdie program op die slotskerm</string>
   <string name="high_touch_sensitivity_title">Hoë raak sensitiwiteit</string>
   <string name="high_touch_sensitivity_summary">Verhoog skerm sensitiwiteit, sodat dit kan gebruik word met die dra van handskoene</string>
+  <string name="touchscreen_hovering_title">Raakskerm swewing</string>
+  <string name="touchscreen_hovering_summary">Laat toe om bo die sekrm te sweef soos \'n muis in die web blaaiers, Remote desktops, ens</string>
   <string name="app_ops_summaries_coarse_location">growwe ligging</string>
   <string name="app_ops_summaries_fine_location">akurrate ligging</string>
   <string name="app_ops_summaries_gps">GPS</string>
@@ -468,6 +487,22 @@
   <string name="profile_setup_setup_triggers_title_config">Verander snellers: <xliff:g id="profile_name">%1$s</xliff:g></string>
   <string name="profile_setup_actions_title">Stap 2: Stel aksies</string>
   <string name="profile_setup_actions_title_config">Herkonfigureer aksies</string>
+  <string name="profile_appgroups_manage">Program groepe</string>
+  <string name="profile_appgroup_manage">Bestuur program groepe</string>
+  <string name="profile_appgroups_title">Program groepe</string>
+  <string name="profile_new_appgroup">Nuwe program groep</string>
+  <string name="profile_delete_appgroup">Verwyder program groep?</string>
+  <string name="profile_appgroup_name_prompt">Tik \'n naam vir die nuwe program groep</string>
+  <string name="profile_appgroup_name_title">Naam</string>
+  <string name="duplicate_appgroup_name">Duplikaat program groep naam!</string>
+  <string name="profile_app_delete_confirm">Verwyder hierdie program?</string>
+  <string name="sound_mode">Kennisgewing metode</string>
+  <string name="ringer_mode">Foon-luitoon metode</string>
+  <string name="lights_mode">Liggie metode</string>
+  <string name="vibrate_mode">Vibrator metode</string>
+  <string name="choose_soundtone">Kies kennisgewing-luitoon</string>
+  <string name="choose_ringtone">Kies foon-luitoon</string>
+  <string name="soundtone_title">Kennisgewingtoon</string>
   <string name="no_bluetooth_triggers">Geen Bluetooth toestelle gepaar.\nRaak om met Bluetooth te paar voordat jy jou snellers opstel.</string>
   <string name="no_wifi_triggers">Geen  Wi\u2011Fi toestelle opgestel.\nRaak om jou Wi\u2011Fi op te stel voordat jy jou snellers opstel.</string>
   <string name="no_triggers_configured">Geen snellers op gestel. Raak om nog by te voeg.</string>
@@ -538,6 +573,12 @@
   <string name="subs_settings">SIM-kaart status</string>
   <string name="storage_usb">USB berging</string>
   <string name="storage_uicc">UICC berging</string>
+  <string name="sdcard_eject" product="default">Ontheg SD kaart</string>
+  <string name="sdcard_eject_summary" product="default">Ontheg die SD kaart sodat jy dit veilig kan verwyder</string>
+  <string name="sd_card_format" product="default">Vee SD kaart uit</string>
+  <string name="sd_card_format_summary" product="default">Vee al die data uit op die SD kaart, soos foto\'s en musiek</string>
+  <string name="sdcard_mount" product="default">Laai SD kaart</string>
+  <string name="sdcard_insert_summary" product="default">Voeg \'n SD kaart by om te monteer</string>
   <string name="usb_eject" product="default">Ontheg USB berging</string>
   <string name="usb_eject_summary" product="default">Ontheg die USB berging, sodat jy dit veilig kan verwyder</string>
   <string name="usb_format" product="default">Vee USB berging uit</string>
@@ -552,22 +593,36 @@
   <string name="uicc_insert_summary" product="default">Plaas UICC berging om te heg</string>
   <string name="usb_settings_enable_ums_title">Aktiveer massa berging?</string>
   <string name="usb_settings_enable_ums_message">Stelsel komponente en programme vertrou dat die primêre berging altyd beskikbaar sal wees. Hierdie funksie breek die funksionaliteit. Dit word sterk aanbeveel om MTP gebruik. Is jy seker jy wil massa stoor aktiveer?</string>
+  <string name="dlg_confirm_sdcard_unmount_title" product="default">Ontheg SD kaart?</string>
   <string name="dlg_confirm_usb_unmount_title" product="default">Ontheg USB berging?</string>
   <string name="dlg_confirm_uicc_unmount_title" product="default">Ontheg UICC berging?</string>
+  <string name="dlg_confirm_sdcard_unmount_text" product="default">As jy die SD kaart ontheg, sal sommige programme ophou werk en mag onbeskikbaar wees totdat jy dit weer monteer.</string>
   <string name="dlg_confirm_usb_unmount_text" product="default">As jy USB berging ontheg sal sommige programme wat jy gebruik ophou werk en dit sal net weer werk as jy die USB berging weer heg.</string>
   <string name="dlg_confirm_uicc_unmount_text" product="default">As jy UICC berging ontheg sal sommige programme wat jy gebruik ophou werk en dit sal net weer werk as jy die UICC berging weer heg.</string>
+  <string name="dlg_error_sdcard_unmount_text" product="default">Kon nie SD kaart ontheg nie, probeer weer later.</string>
   <string name="dlg_error_usb_unmount_text" product="default">Kon nie USB berging ontheg nie. Probeer weer later.</string>
   <string name="dlg_error_uicc_unmount_text" product="default">Kon nie UICC berging ontheg nie. Probeer weer later.</string>
+  <string name="sdcard_unmount_inform_text" product="default">SD kaart sal ontheg word.</string>
   <string name="usb_unmount_inform_text" product="default">USB-berging sal ontheg word.</string>
   <string name="uicc_unmount_inform_text" product="default">UICC berging sal ontheg word.</string>
+  <string name="sdcard_media_format_desc" product="default">Vee SD kaart uit? Jy sal <b>alle</b> data verloor!</string>
   <string name="usb_media_format_desc" product="default">Vee die USB berging uit? Jy sal <b>alle</b> data verloor op die stoor spasie!</string>
   <string name="uicc_media_format_desc" product="default">Vee die UICC berging uit? Jy sal <b>alle</b> data verloor op die stoor spasie!</string>
+  <string name="sdcard_media_format_button_text" product="default">Vee SD kaart uit</string>
   <string name="usb_media_format_button_text" product="default">Vee USB-berging uit</string>
   <string name="uicc_media_format_button_text" product="default">Vee UICC berging uit</string>
+  <string name="sdcard_media_format_final_desc" product="default">Uitvee van SD kaart, verwyder al die lêers wat daar gestoor word? Jy kan nie hierdie aksie ontdoen nie!</string>
   <string name="usb_media_format_final_desc" product="default">Uitvee van USB-berging, verwyder al die lêers wat daar gestoor word? Jy kan nie hierdie aksie ontdoen nie!</string>
   <string name="uicc_media_format_final_desc" product="default">Uitvee van UICC berging, verwyder al die lêers wat daar gestoor word? Jy kan nie hierdie aksie ontdoen nie!</string>
+  <string name="sdcard_media_format_gesture_explanation" product="default">Vir bevestiging het jy nodig om jou ontsluit patroon weer in te sleutel om die SD kaart uit te vee.</string>
   <string name="usb_media_format_gesture_explanation" product="default">Vir bevestiging het jy nodig om jou ontsluit patroon in te sleutel om die USB-berging uit te vee.</string>
   <string name="uicc_media_format_gesture_explanation" product="default">Vir bevestiging het jy nodig om jou ontsluit patroon in te sleutel om die UICC berging uit te vee.</string>
+  <string name="internal_sd_format">Verwyder interne media spasie</string>
+  <string name="internal_sd_format_summary">Verwyder alle data op die interne media spasie, soos musiek en foto\'s</string>
+  <string name="master_clear_desc_erase_internal_storage">\n\nOm musiek, foto\'s en ander gebruiker data uit te vee, moet die <b>interne media spasie</b> skoon gemaak word.</string>
+  <string name="erase_internal_storage">Verwyder interne media spasie</string>
+  <string name="erase_internal_storage_description">Verwyder al die data op die interne media spasie, soos musiek en foto\'s</string>
+  <string name="storage_rescan_media">Herskandeer die skyf spasie</string>
   <string name="location_category_enhanced_location">Verbeterde ligging (IZat)</string>
   <string name="app_ops_settings_summary">Kyk of verander program toestemmings</string>
   <string name="enable_adb_summary_charging">Toestel is in Laai modus, USB ontfouting is gedeaktiveer</string>
@@ -594,10 +649,6 @@
   <string name="usb_sdcard_summary">Laat jou toe om lêers oor te dra tussen jou rekenaar en SD kaart deur dit te oor te laai as \'n USB massa stoorplek</string>
   <string name="external_storage_turn_on">Eksterne stoor is aangeskakel</string>
   <string name="external_storage_turn_off">Eksterne stoor is afgeskakel</string>
-  <string name="menu_hidden_apps_delete">Stel terug</string>
-  <string name="menu_hidden_apps_reset_lock">Herstel patroon slot</string>
-  <string name="protected_apps">Beskermde programme</string>
-  <string name="saving_protected_components">Stoor komponent toestand\u2026</string>
   <string name="stats_collection_title">Statistieke versameling</string>
   <string name="stats_collection_summary">As dit aangeskakel is, laat statistieke versameling toe</string>
   <string name="power_notifications_category_title">Laaier-klank</string>
@@ -616,6 +667,7 @@
   <string name="performance_settings_title">Werkverrigting</string>
   <string name="io_scheds_title">I/U skeduleerder</string>
   <string name="io_sched_title">I/O skeduleerder</string>
+  <string name="perf_profile_title">Battery modus</string>
   <string name="pref_force_highend_gfx_title">Dwing hoë-einde grafika</string>
   <string name="pref_force_highend_gfx_summary">Aktiveer hoë-einde visuele effekte soos deursigtige status / navigasie balk (vereis herlaai)</string>
   <string name="performance_settings_warning_title">Pasop!</string>
@@ -635,6 +687,8 @@
   <string name="cmlicense_title">CyanogenMod Regs</string>
   <string name="settings_cmlicense_activity_title">CyanogenMod Regs</string>
   <string name="settings_cmlicense_activity_unreachable">Jy het nie \'n data verbinding. Om hierdie inligting nou te sien, gaan na %s van enige rekenaar wat verbind is tot die Internet.</string>
+  <string name="lockpattern_settings_enable_error_path_title">Wys patroon fout</string>
+  <string name="lockpattern_settings_enable_dots_title">Wys patroon kolle</string>
   <string name="unlock_quick_unlock_control_title">Vinnige oopsluit</string>
   <string name="unlock_quick_unlock_control_summary">Ontsluit outomaties wanneer die korrekte PIN/wagwoord ingesleutel is</string>
   <string name="unlock_scramble_pin_layout_title">Skommel uitleg</string>
@@ -642,6 +696,13 @@
   <string name="link_volume_option_title">Koppel foon-luitoon &amp; kennisgewing volumes</string>
   <string name="notification_volume_option_title">Kennisgewing volume</string>
   <string name="notification_drawer_title">Kennisgewings laai</string>
+  <string name="quick_pulldown_title">Vinnige Instellings</string>
+  <string name="quick_pulldown_summary">%1$s rand van die statusbalk vertoon Vinnige Instellings</string>
+  <string name="quick_pulldown_summary_left">Linker</string>
+  <string name="quick_pulldown_summary_right">Regter</string>
+  <string name="quick_pulldown_off">Af</string>
+  <string name="quick_pulldown_left">Linker</string>
+  <string name="quick_pulldown_right">Regter</string>
   <string name="status_bar_show_weather_title">Wys weer</string>
   <string name="status_bar_show_weather_summary">Vertoon die weer bo die Vinnige instellings paneel</string>
   <string name="qs_category_title">Vinnige Instellings paneel</string>
@@ -663,11 +724,13 @@
   <string name="qs_tile_hotspot">Warmkol</string>
   <string name="qs_tile_adb_over_network">ADB oor netwerk</string>
   <string name="qs_tile_profiles">Stelsel profiele</string>
+  <string name="qs_tile_performance">Battery modus</string>
   <string name="qs_tile_nfc">NFC</string>
   <string name="qs_tile_compass">Kompas</string>
   <string name="qs_tile_lockscreen">Slotskerm</string>
   <string name="qs_tile_lte">LTE</string>
   <string name="qs_tile_screen_timeout">Skerm afsnytyd</string>
+  <string name="qs_tile_usb_tether">USB internet verbinding</string>
   <string name="qs_main_tiles_title">Vergroot eerste ry</string>
   <string name="qs_main_tiles_summary_on">Twee hoof teëls op die eerste ry</string>
   <string name="qs_main_tiles_summary_off">Drie teëls op elke ry</string>
@@ -683,6 +746,8 @@
   <string name="wifi_mhz">MHz</string>
   <string name="maximum_head_level">Hoof: %1$s W/kg</string>
   <string name="maximum_body_level">Lyf: %1$s W/kg</string>
+  <string name="ic_code_model">Model: %1$s</string>
+  <string name="ic_code_full">IC: %1$s</string>
   <string name="power_menu_expanded_desktop">Uitgebreide lessenaar</string>
   <string name="expanded_hide_nothing">Verberg niks</string>
   <string name="expanded_hide_status">Versteek status balk</string>
@@ -693,11 +758,13 @@
   <string name="expanded_desktop_style">Uitgebreide werkskerm styl</string>
   <string name="expanded_desktop_style_description">Kies \'n standaard uitgebreide werkskerm styl</string>
   <string name="expanded_desktop_title">Uitgebreide werkskerm opsies</string>
+  <string name="title_general">Algemeen</string>
   <string name="lockscreen_targets_message">Slotskerm kortpaaie</string>
   <string name="lockscreen_default_target">Normaal</string>
   <string name="lockscreen_none_target">Geen</string>
   <string name="lockscreen_message">Tik \'n ikoon op die linker of regter kant om \'n slot skerm kortpad toe te wys.</string>
   <string name="lockscreen_choose_action_title">Kies aksie</string>
+  <string name="lockscreen_visualizer_title">Vertoon musiek visualiseerder</string>
   <string name="whisperpush_title">WhisperPush</string>
   <string name="whisperpush_summary">Bestuur veilige SMS-instellings.</string>
   <string name="navigation_ring_title">Navigasie ring teikens</string>
@@ -723,5 +790,39 @@
   <string name="gestures_action_search">Soek-knoppie aksie</string>
   <string name="gestures_action_recent">Onlangse programme</string>
   <string name="stylus_app_not_installed">%s is nie geïnstalleer nie</string>
+  <string name="advanced">Gevorderd</string>
+  <string name="advanced_mode_title">Gevorderde modus</string>
+  <string name="advanced_mode_summary">Wys addisionele opsies vir die opstel van jou toestel in verskeie instellings kieslyste</string>
+  <string name="category_misc">Diverse</string>
+  <string name="category_vibrate">Vibreer</string>
+  <string name="category_volume">Volume</string>
+  <string name="category_sounds">Klanke</string>
+  <string name="category_interface">Koppelvlak</string>
+  <string name="category_calibration">Kalibrasie</string>
+  <string name="display_and_lights">Skerm &amp; liggies</string>
+  <string name="notification_manager">Kennisgewing bestuurder</string>
+  <string name="lockscreen_settings">Slotskerm</string>
+  <string name="category_lights">Liggies</string>
+  <string name="power_usage_history_title">Battery gebruik</string>
+  <string name="recents_show_searchbar">Wys soekbalk in onlangse kieslys</string>
+  <string name="keywords_recents_show_searchbar">onlangs onlangse deaktiveer aktiveer wys versteek soekbalk</string>
+  <string name="sim_ringtone_title">SIM %d luitoon</string>
+  <string name="interruptions_ignore_while_media_title">Verhoed oudio \'ducking\'</string>
+  <string name="interruptions_ignore_while_media_summary">Moet nie media terugspeel volume verminder wanneer \'n kennisgewing arriveer</string>
   <string name="live_display_summary">Optimaliseer jou skerm gebaseer op die tyd van die dag en die omringende omstandighede om leesbaarheid te verbeter en verminder oogspanning</string>
+  <string name="live_display_mode">Skerm modus</string>
+  <string name="live_display_color_temperature_title">Kleurtemperatuur</string>
+  <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+  <string name="live_display_day">Dag</string>
+  <string name="live_display_night">Nag</string>
+  <string name="live_display_outdoor_mode_title">Outomatiese buitelug modus</string>
+  <string name="live_display_outdoor_mode_summary">Verhoog helderheid en diepte outomaties onder helder sonlig</string>
+  <string name="live_display_low_power_title">Verminder kragverbruik</string>
+  <string name="live_display_low_power_summary">Verstel skerm vir laagste kragverbruik sonder verswakking</string>
+  <string name="live_display_enhance_color_title">Verbeter kleure</string>
+  <string name="live_display_enhance_color_summary">Verbeter kleur impak van vlees toon, natuurskoon en ander beelde</string>
+  <string name="battery_saver_threshold">Battery spaarder grens</string>
+  <string name="battery_saver_summary">Verminder werkverrigting en beperk agtergrond data</string>
+  <string name="battery_saver_summary_unavailable">Nie beskikbaar tydens laai</string>
 </resources>
