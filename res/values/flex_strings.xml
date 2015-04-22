@@ -635,4 +635,9 @@
     <!-- Data activity icons -->
     <string name="status_bar_show_network_activity_title">Network activity arrows</string>
 
+    <!-- Status bar - Clock -->
+    <string name="clock_color_title">Color</string>
+    <string name="status_bar_clock_style_reset">Reset color</string>
+    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
+
 </resources>
