@@ -553,8 +553,8 @@
     <string name="restart_systemui">Restart SystemUI</string>
 
     <!-- Statusbar Flex logo -->
-    <string name="status_bar_flex_logo_title">FlexOS logo</string>
-    <string name="status_bar_flex_logo_summary">Enable to show FlexOS logo on the left side of statusbar</string>
-    <string name="status_bar_flex_logo_color">FlexOS logo color</string>
+    <string name="status_bar_Flex_logo_title">FlexOS logo</string>
+    <string name="status_bar_Flex_logo_summary">Enable to show FlexOS logo on the left side of statusbar</string>
+    <string name="status_bar_Flex_logo_color">FlexOS logo color</string>
 
 </resources>
