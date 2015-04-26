@@ -24,7 +24,6 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -255,6 +254,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             return false;
         }
         AlertDialog dialog;
+
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mStatusBarClock) {
             int clockStyle = Integer.parseInt((String) newValue);
@@ -376,6 +376,24 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         return false;
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        menu.add(0, MENU_RESET, 0, R.string.reset)
+                .setIcon(R.drawable.ic_settings_reset)
+                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case MENU_RESET:
+                showDialogInner(DLG_RESET);
+                return true;
+             default:
+                return super.onContextItemSelected(item);
+        }
+    }
+
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
         if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
                 batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
@@ -427,6 +445,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             }
         }
         mStatusBarDateFormat.setEntries(parsedDateEntries);
+    }
+
+    private void showDialogInner(int id) {
+        DialogFragment newFragment = MyAlertDialogFragment.newInstance(id);
+        newFragment.setTargetFragment(this, 0);
+        newFragment.show(getFragmentManager(), "dialog " + id);
     }
 
     public static class MyAlertDialogFragment extends DialogFragment {
