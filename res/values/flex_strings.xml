@@ -395,7 +395,7 @@
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
 
     <!-- Animation Control -->
-    <string name="screen_and_animations_title">Animation Control</string>
+    <string name="screen_and_animations_title">Animation control</string>
 
     <!-- Storage Notification Enhancement -->
     <string name="storage_options_category">Notifications</string>
@@ -463,7 +463,7 @@
     <string name="heads_up_touch_outside_summary_disabled">Do not hide notification after touch outside or on home button press</string>
 
     <!-- Gesture Anywhere -->
-    <string name="gesture_anywhere_title">Gesture Anywhere</string>
+    <string name="gesture_anywhere_title">Gesture anywhere</string>
     <string name="gesture_anywhere_enabled_title">Gesture Anywhere</string>
     <string name="gesture_anywhere_enabled_summary">Enable the Gesture Anywhere feature</string>
     <string name="gesture_anywhere_position_title">Loction</string>
