@@ -202,6 +202,9 @@
         <item>@string/shortcut_action_recent</item>
         <item>@string/shortcut_action_power</item>
         <item>@string/shortcut_action_search</item>
+        <item>@string/shortcut_action_kill</item>
+        <item>@string/shortcut_action_lastapp</item>
+        <item>@string/shortcut_action_screenshot</item>
         <item>@string/shortcut_action_none</item>
     </string-array>
 
@@ -215,6 +218,9 @@
         <item>**recents**</item>
         <item>**power**</item>
         <item>**search**</item>
+        <item>**kill**</item>
+        <item>**lastapp**</item>
+        <item>**screenshot**</item>
         <item>**null**</item>
     </string-array>
 
