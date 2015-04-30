@@ -44,21 +44,23 @@
                 android:summary="@string/live_display_summary"
                 android:fragment="com.android.settings.livedisplay.LiveDisplay" />
 
-        <!-- Doze // Ambient display advanced -->
+        <!-- Rotation modes -->
+        <PreferenceScreen
+                android:key="display_rotation"
+                android:title="@string/display_rotation_title"
+                android:fragment="com.android.settings.cyanogenmod.DisplayRotation"
+                settings:advanced="true"/>
+
+        <!-- Auto rotate screen -->
+        <SwitchPreference
+                android:key="accelerometer"
+                android:title="@string/accelerometer_title"
+                settings:advanced="false"/>
+
         <PreferenceScreen
                 android:key="doze_fragment"
                 android:title="@string/doze_title"
-                android:fragment="com.android.settings.flex.AmbientSettings"
-                settings:advanced="true"/>
-
-        <!-- Doze // Ambient display -->
-        <SwitchPreference
-                android:key="doze"
-                android:title="@string/doze_title"
-                android:fragment="com.android.settings.flex.AmbientSettings"
-                android:summary="@string/doze_summary"
-                android:persistent="false"
-                settings:advanced="false" />
+                android:fragment="com.android.settings.flex.AmbientSettings" />
 
         <!-- Lift to wake -->
         <SwitchPreference
@@ -86,19 +88,6 @@
                 android:summary="@string/proximity_wake_summary"
                 android:defaultValue="true"
                 settings:advanced="true"/>
-
-        <!-- Rotation modes -->
-        <PreferenceScreen
-                android:key="display_rotation"
-                android:title="@string/display_rotation_title"
-                android:fragment="com.android.settings.cyanogenmod.DisplayRotation"
-                settings:advanced="true"/>
-
-        <!-- Auto rotate screen -->
-        <SwitchPreference
-                android:key="accelerometer"
-                android:title="@string/accelerometer_title"
-                settings:advanced="false"/>
 
         <!-- Seconds before sleep -->
         <ListPreference
