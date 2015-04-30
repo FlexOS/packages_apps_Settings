@@ -657,6 +657,11 @@
 
     <string-array name="clock_font_style_values" translatable="false">
         <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 
     <!-- Doze pulse (ambient display) options -->
     <string-array name="doze_pulse_duration_in_entries" translatable="false">
