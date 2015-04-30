@@ -46,7 +46,10 @@ import android.hardware.CmHardwareManager;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.AsyncTask;
+<<<<<<< ours
+=======
 import android.os.Build;
+>>>>>>> theirs
 import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
@@ -64,7 +67,10 @@ import android.preference.SwitchPreference;
 import android.preference.TwoStatePreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+<<<<<<< ours
+=======
 import android.text.TextUtils;
+>>>>>>> theirs
 import android.util.DisplayMetrics;
 import android.util.Log;
 
@@ -341,21 +347,21 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private void updateTimeoutPreferenceDescription(long currentTimeout) {
         ListPreference preference = mScreenTimeoutPreference;
         String summary;
-        if (currentTimeout < 0) {
-            // Unsupported value
-            summary = "";
-        } else {
+        summary = "";
+        if (currentTimeout >= 0) {
             final CharSequence[] entries = preference.getEntries();
             final CharSequence[] values = preference.getEntryValues();
-            if (entries == null || entries.length == 0) {
-                summary = "";
-            } else {
+            if (entries != null && entries.length > 0) {
+                int maxEntries = Math.min(entries.length, values.length);
                 int best = 0;
-                for (int i = 0; i < values.length; i++) {
+                for (int i = 0; i < maxEntries; i++) {
                     long timeout = Long.parseLong(values[i].toString());
                     if (currentTimeout >= timeout) {
                         best = i;
                     }
+                }
+                if (best >= entries.length) {
+                  best = entries.length - 1;
                 }
                 summary = preference.getContext().getString(R.string.screen_timeout_summary,
                         entries[best]);
