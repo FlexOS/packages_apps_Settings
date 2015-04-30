@@ -46,10 +46,7 @@ import android.hardware.CmHardwareManager;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.AsyncTask;
-<<<<<<< ours
-=======
 import android.os.Build;
->>>>>>> theirs
 import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.Handler;
@@ -67,10 +64,7 @@ import android.preference.SwitchPreference;
 import android.preference.TwoStatePreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-<<<<<<< ours
-=======
 import android.text.TextUtils;
->>>>>>> theirs
 import android.util.DisplayMetrics;
 import android.util.Log;
 
