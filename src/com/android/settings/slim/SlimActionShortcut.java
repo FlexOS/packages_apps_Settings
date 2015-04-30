@@ -21,7 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.android.internal.util.temasek.Action;
+import com.android.internal.util.flex.Action;
 
 public class SlimActionShortcut extends Activity  {
 

@@ -28,7 +28,7 @@ import android.util.Log;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreferenceCHOS;
+import com.android.settings.flex.SeekBarPreferenceCHOS;
 
 public class PieTriggerSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {

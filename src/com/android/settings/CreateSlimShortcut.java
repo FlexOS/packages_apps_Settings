@@ -23,9 +23,9 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
-import com.android.internal.util.temasek.ActionHelper;
-import com.android.internal.util.temasek.DeviceUtils;
-import com.android.internal.util.temasek.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.flex.ActionHelper;
+import com.android.internal.util.flex.DeviceUtils;
+import com.android.internal.util.flex.DeviceUtils.FilteredDeviceFeaturesArray;
 import com.android.settings.slim.SlimActionShortcut;
 
 import com.android.settings.R;
