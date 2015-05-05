@@ -44,7 +44,7 @@
     <string name="ring_mode_mute">Mute</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">System profiles</string>
+    <string name="profiles_settings_title">Profiles</string>
     <string name="profiles_add">Add</string>
     <string name="profile_settings_title">Profile</string>
     <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
@@ -183,26 +183,26 @@
     <string name="backlight_summary_enabled">Enabled</string>
 
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_title">Power Menu</string>
+    <string name="power_menu_reboot_title">Reboot Menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screenrecord</string>
-    <string name="power_menu_profiles_title">Profile switcher</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_settings_title">Settings shortcut</string>
-    <string name="power_menu_lockdown_title">Device lockdown</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_profiles_title">Profile Switcher</string>
+    <string name="power_menu_airplane_title">Airplane Mode</string>
+    <string name="power_menu_users_title">User Switcher</string>
+    <string name="power_menu_settings_title">Settings Shortcut</string>
+    <string name="power_menu_lockdown_title">Device Lockdown</string>
+    <string name="power_menu_bug_report_title">Bug Report</string>
+    <string name="power_menu_sound_title">Sound Panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_profiles_disabled">System profiles are disabled</string>
 
     <!-- Backlight brightness settings screen -->
-    <string name="adaptive_backlight_title">Adaptive backlight</string>
+    <string name="adaptive_backlight_title">Adaptive Backlight</string>
     <string name="adaptive_backlight_summary">Dynamically adjust the brightness of the display\'s backlight to maximize battery life while maintaining usability</string>
 
     <!-- Sunlight readability enhancement screen -->
-    <string name="sunlight_enhancement_title">Sunlight enhancement</string>
+    <string name="sunlight_enhancement_title">Sunlight Enhancement</string>
     <string name="sunlight_enhancement_summary">Enhance display brightness and readability under bright sunlight</string>
 
     <!-- Color enhancement settings screen -->
@@ -273,7 +273,7 @@
 
     <string name="spam_added_title">Added %1$s</string>
     <string name="spam_last_blocked_title">Last blocked %1$s</string>
-    <string name="block_notifications_title">Filter notifications</string>
+    <string name="block_notifications_title">Filter Notifications</string>
     <string name="block_notifications_summary">Manage ignored notifications and filters</string>
     <string name="no_filters_title">No filters set</string>
 
@@ -982,7 +982,7 @@
     <!-- Notification drawer -->
     <string name="notification_drawer_title">Notification drawer</string>
 
-    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_title">Quick Pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
     <string name="quick_pulldown_summary_left">Left</string>
     <string name="quick_pulldown_summary_right">Right</string>
@@ -998,7 +998,7 @@
 
     <string name="qs_brightness_slider_title">Show brightness slider</string>
 
-    <string name="qs_order_title">Select and order tiles</string>
+    <string name="qs_order_title">Select &amp; Order Tiles</string>
     <string name="add_qs">Add new tile</string>
 
     <string name="qs_action_delete">Delete</string>
@@ -1028,11 +1028,11 @@
     <string name="qs_tile_usb_tether">USB tethering</string>
     <string name="qs_tile_heads_up">Heads up</string>
 
-    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_title">Enlarge First Row</string>
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
     <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
 
-    <string name="qs_advanced_location_title">Advanced location settings</string>
+    <string name="qs_advanced_location_title">Advanced Location Settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
 
     <string name="sim_no_number_set">No number assigned</string>
@@ -1065,7 +1065,7 @@
     <string name="ic_code_model">Model: %1$s</string>
     <string name="ic_code_full">IC: %1$s</string>
 
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
+    <string name="power_menu_expanded_desktop">Expanded Desktop</string>
     <string name="expanded_hide_nothing">Hide nothing</string>
     <string name="expanded_hide_status">Hide status bar</string>
     <string name="expanded_hide_navigation">Hide navigation bar</string>
@@ -1076,13 +1076,18 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
+<<<<<<< HEAD
     <string name="title_general">General</string>
     <string name="lockscreen_targets_message">Lock screen shortcuts</string>
+=======
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="lockscreen_targets_message">Slider Shortcuts</string>
+>>>>>>> 68092dd... Cleanup
     <string name="lockscreen_default_target">Default</string>
     <string name="lockscreen_none_target">None</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
-    <string name="lockscreen_visualizer_title">Display music visualizer</string>
+    <string name="lockscreen_visualizer_title">Display Music Visualizer</string>
 
     <!-- WhisperPush -->
     <string name="whisperpush_title">WhisperPush</string>

@@ -675,7 +675,7 @@
 
     <!-- Date and time settings --><skip />
     <!-- Main Settings screen setting option name to go into the date and time settings-->
-    <string name="date_and_time_settings_title">Date &amp; time</string>
+    <string name="date_and_time_settings_title">Date &amp; Time</string>
     <!-- Title for Date & Time settings screen in SetupWizard [CHAR LIMIT=40] -->
     <string name="date_and_time_settings_title_setup_wizard">Set date and time</string>
     <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->
@@ -741,7 +741,7 @@
     <!-- Text shown next to checkbox for showing owner info on LockScreen [CHAR LIMIT=50]-->
     <string name="show_owner_info_on_lockscreen_label">Show owner info on lock screen</string>
     <!-- Text shown for title of owner info setting [CHAR LIMIT=20]-->
-    <string name="owner_info_settings_title">Owner info</string>
+    <string name="owner_info_settings_title">Owner Info</string>
     <!-- Text shown for title of settings checkbox to enable widgets [CHAR LIMIT=20]-->
     <string name="security_enable_widgets_title">Enable widgets</string>
     <!-- Summary for settings checkbox to disable widgets when the setting has been disabled by an installed device admin [CHAR LIMIT=50] -->
@@ -921,7 +921,7 @@
 
     <!--  Main Security lock settings --><skip />
     <!--  Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
-    <string name="unlock_set_unlock_launch_picker_title">Screen lock</string>
+    <string name="unlock_set_unlock_launch_picker_title">Screen Lock</string>
 
     <!--  Title for PreferenceScreen to change security method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
     <string name="unlock_set_unlock_launch_picker_change_title">Change lock screen</string>
@@ -2578,7 +2578,7 @@
     <string name="tethering_help_button_text">Help</string>
 
     <!-- Wireless controls, item title to go into the network settings -->
-    <string name="network_settings_title">Mobile networks</string>
+    <string name="network_settings_title">Mobile Networks</string>
 
     <!-- Mobile plan [CHAR LIMIT=35]-->
     <string name="manage_mobile_plan_title" translatable="true">Mobile plan</string>
@@ -3199,7 +3199,7 @@
 
     <!-- Language Settings --> <skip />
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
-    <string name="language_settings">Language &amp; input</string>
+    <string name="language_settings">Language &amp; Input</string>
     <!-- Title of Language and keyboard settings screen -->
     <string name="language_keyboard_settings_title">Language &amp; input</string>
     <!-- On Language & keyboard settings screen, heading. Inside the "Language & keyboard settings" screen, this is the header for settings that relate to language (select the system language, user dictionary for the language). -->
@@ -4392,7 +4392,7 @@
 
     <!-- Backup and reset Settings screen --><skip />
     <!-- Backup and reset settings menu title -->
-    <string name="privacy_settings">Backup &amp; reset</string>
+    <string name="privacy_settings">Backup &amp; Reset</string>
     <!-- Privacy settings activity title -->
     <string name="privacy_settings_title">Backup &amp; reset</string>
     <!-- Backup section title -->
@@ -5732,7 +5732,7 @@
     <string name="lock_screen_notifications_interstitial_message">When your device is locked, how do you want notifications to show?</string>
 
     <!-- Sound & notification > Notification section: Title for the option managing notifications per application. [CHAR LIMIT=30] -->
-    <string name="app_notifications_title">App notifications</string>
+    <string name="app_notifications_title">App Notifications</string>
 
     <!-- Sound & notification > Sound section: Title for the other sounds option and associated settings page. [CHAR LIMIT=30] -->
     <string name="other_sound_settings">Other sounds</string>
@@ -5771,7 +5771,7 @@
     <string name="emergency_tone_vibrate">Vibrate</string>
 
     <!-- Sound & notification > Notification section: Title for managing notification listeners option. [CHAR LIMIT=30] -->
-    <string name="manage_notification_access_title">Notification access</string>
+    <string name="manage_notification_access_title">Notification Access</string>
 
     <!-- Summary of preference to manage notification listeners, when none are enabled -->
     <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>
