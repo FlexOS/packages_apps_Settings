@@ -537,9 +537,6 @@
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
 
-    <!-- Restart SystemUI -->
-    <string name="restart_systemui">Restart SystemUI</string>
-
     <!-- QuickSettings tiles -->
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_sync_tile">Sync</string>
