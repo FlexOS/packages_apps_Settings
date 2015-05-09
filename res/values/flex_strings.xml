@@ -538,9 +538,6 @@
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_sync_tile">Sync</string>
     <string name="qs_navbar_tile">Navigation Bar</string>
-	
-	<!-- QuickSettings 4 columns -->
-    <string name="qs_four_columns_title">Show four tiles per row</string>
 
     <!-- Status bar ticker -->
     <string name="status_bar_ticker_title">Notification Ticker</string>
