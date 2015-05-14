@@ -20,7 +20,7 @@
     <string name="attention">Pozor</string>
     <string name="reset">Reset</string>
     <string name="help">Pomoc</string>
-    <string name="výchozí_string">Výchozí</string>
+    <string name="default_string">Výchozí</string>
     <string name="enabled">Zapnuto</string>
     <string name="disabled">Vypnuto</string>
     <string name="ok">Ok</string>
@@ -31,7 +31,7 @@
 
     <!-- FlexOS Version -->
     <string name="flex_version">FlexOS verze</string>
-    <string name="flex_version_výchozí">Neznámá</string>
+    <string name="flex_version_default">Neznámá</string>
 
     <!-- FlexControl -->
     <string name="flex_control_title">Flex nastavení</string>
@@ -91,7 +91,7 @@
     <string name="shortcuts_applications">Aplikace</string>
     <string name="shortcuts_select_custom_app_title">Zvolit aplikace</string>
     <string name="shortcuts_icon_picker_type">Zvolit typ ikony:</string>
-    <string name="shortcuts_icon_výchozí">Výchozí</string>
+    <string name="shortcuts_icon_default">Výchozí</string>
     <string name="shortcuts_icon_presets">Systémové ikony</string>
     <string name="shortcuts_icon_custom">Galerie</string>
     <string name="shortcuts_icon_picker_choose_icon_title">Zvolte ikonu</string>
@@ -168,11 +168,11 @@
     <string name="navigation_bar_height_summary">Výška nav. lišty v režimu portrét</string>
     <string name="navigation_bar_width_title">Šířka nav. lišty</string>
     <string name="navigation_bar_width_summary">Šířka nav. lišty v režimu portrét</string>
-    <string name="navigation_bar_size_42_dp_výchozí">42 dp (výchozí)</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (výchozí)</string>
     <string name="navigation_bar_size_36_dp">36 dp</string>
     <string name="navigation_bar_size_30_dp">30 dp</string>
     <string name="navigation_bar_size_24_dp">24 dp</string>
-    <string name="navigation_bar_size_48_dp_výchozí">48 dp (výchozí)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (výchozí)</string>
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
@@ -255,7 +255,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Nastavit</string>
-    <string name="color_výchozí">Výchozí</string>
+    <string name="color_default">Výchozí</string>
 
     <!-- OmniSwitch -->
     <string name="omniswitch_settings_title">OmniSwitch</string>
@@ -287,7 +287,7 @@
     <string name="toast_animation_title">Toast animace</string>
     <string name="toast_animation_summary">Zvolte a vyberte systémovou toast animaci</string>
     <string name="toast_none_animation">Žádná</string>
-    <string name="toast_výchozí_animation">Výchozí</string>
+    <string name="toast_default_animation">Výchozí</string>
     <string name="toast_fade_animation">Vymizení</string>
     <string name="toast_SlideRight_animation">Přiletění zprava</string>
     <string name="toast_SlideLeft_animation">Přiletění zleva</string>
@@ -367,7 +367,7 @@
     <string name="wallpaper_intra_close_title">Zavření intra tapety</string>
     <string name="task_open_behind_title">Otevření úkolu v pozadí</string>
     <string name="animation_duration_title">Délka animace</string>
-    <string name="animation_duration_výchozí">Výchozí</string>
+    <string name="animation_duration_default">Výchozí</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
@@ -599,7 +599,7 @@
 
 
     <!-- Navigation bar visibility -->
-    <string name="navigation_menu_výchozí_jb_behavior">Ukázat při potřebě (výchozí)</string>
+    <string name="navigation_menu_default_jb_behavior">Ukázat při potřebě (výchozí)</string>
     <string name="navigation_menu_never_show">Neukazovat nikdy</string>
     <string name="navigation_menu_always_show">Vždy ukázat</string>
     <string name="title_pref_menu_display">Zobrazení menu</string>
@@ -677,12 +677,12 @@
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
     <string name="one_sekund">1 s</string>
-    <string name="one_sekund_výchozí">1 s (výchozí)</string>
+    <string name="one_sekund_default">1 s (výchozí)</string>
     <string name="onehalf_sekund">1.5 s</string>
     <string name="two_sekund">2 s</string>
     <string name="twohalf_sekund">2.5 s</string>
     <string name="three_sekund">3 s</string>
-    <string name="three_sekund_výchozí">3 s (výchozí)</string>
+    <string name="three_sekund_default">3 s (výchozí)</string>
     <string name="threehalf_sekund">3.5 s</string>
     <string name="four_sekund">4 s</string>
     <string name="fourhalf_sekund">4.5 s</string>
