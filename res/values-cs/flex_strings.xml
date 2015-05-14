@@ -86,7 +86,7 @@
     <string name="shortcut_action_help_icon">, při vybírání ikona otevře nastavení přizpůsobení</string>
     <string name="shortcut_action_help_main">Pro přidání %1$s, zvolte ikonu Přidat. Když je %1$s přidána, zvolení linky změní cíl%2$s\n\nPro odebrání %1$s, odsuňte linku horizontálně doleva nebo doprava. Přesuňte %1$s v listu vertikálním přetažením kotvy nalevo.\n\nPro odstranění obnovte nastavení.</string>
     <string name="shortcut_action_help_delete_last_entry">Smazání každé %1$s v listu vypne tuto funkci.</string>
-    <string name="shortcut_action_help_pie_sekund_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu koláče.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu koláče.</string>
 
     <string name="shortcuts_applications">Aplikace</string>
     <string name="shortcuts_select_custom_app_title">Zvolit aplikace</string>
@@ -584,11 +584,11 @@
     <string name="pie_show_background_title">Ukázat pozadí</string>
     <string name="pie_show_background_summary">Zapnout pozadí pie</string>
     <string name="pie_button">Tlačítka</string>
-    <string name="pie_button_sekund_layer">Druhá vrstva tlačítek</string>
-    <string name="pie_button_sekund_layer_summary">Změňte tlačítka druhé vrstvy</string>
+    <string name="pie_button_second_layer">Druhá vrstva tlačítek</string>
+    <string name="pie_button_second_layer_summary">Změňte tlačítka druhé vrstvy</string>
     <string name="pie_button_style_summary">Změnit styl tlačítek</string>
     <string name="pie_style_reset_message">Obnovit styly na výchozí?</string>
-    <string name="shortcut_action_help_pie_sekund_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu tlačítek pie.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu tlačítek pie.</string>
     <string name="icon_color_mode_all_icons">Všechny ikony</string>
     <string name="icon_color_mode_system_icons">Systémové ikony</string>
     <string name="icon_color_mode_system_custom_icons">Systémové a uživatelské ikony</string>
@@ -676,17 +676,17 @@
 
     <string name="twohundred_ms">200 ms</string>
     <string name="fivehundred_ms">500 ms</string>
-    <string name="one_sekund">1 s</string>
-    <string name="one_sekund_default">1 s (výchozí)</string>
-    <string name="onehalf_sekund">1.5 s</string>
-    <string name="two_sekund">2 s</string>
-    <string name="twohalf_sekund">2.5 s</string>
-    <string name="three_sekund">3 s</string>
-    <string name="three_sekund_default">3 s (výchozí)</string>
-    <string name="threehalf_sekund">3.5 s</string>
-    <string name="four_sekund">4 s</string>
-    <string name="fourhalf_sekund">4.5 s</string>
-    <string name="five_sekund">5 s</string>
+    <string name="one_second">1 s</string>
+    <string name="one_second_default">1 s (výchozí)</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second">3 s</string>
+    <string name="three_second_default">3 s (výchozí)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
 
     <string name="veryeasy_shake">Velmi lehké</string>
     <string name="easy_shake">Lehké</string>
