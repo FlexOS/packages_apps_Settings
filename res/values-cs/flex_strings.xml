@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The FlexOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General strings -->
+    <string name="attention">Pozor</string>
+    <string name="reset">Reset</string>
+    <string name="help">Pomoc</string>
+    <string name="default_string">Výchozí</string>
+    <string name="enabled">Zapnuto</string>
+    <string name="disabled">Vypnuto</string>
+    <string name="ok">Ok</string>
+    <string name="dialog_restart">Restart</string>
+    <string name="dialog_cancel">Zrušit</string>
+    <string name="reset_message">Obnovit všechny hodnoty na výchozí?</string>
+    <string name="additional_options_title">Doplňkové nastavení</string>
+
+    <!-- FlexOS Version -->
+    <string name="flex_version">FlexOS verze</string>
+    <string name="flex_version_default">Neznámá</string>
+
+    <!-- FlexControl -->
+    <string name="flex_control_title">Flex nastavení</string>
+
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Prodleva podržení</string>
+    <string name="timeout_2000">2 sekundy (výchozí)</string>
+    <string name="timeout_1500">1,5 sekundy</string>
+    <string name="timeout_1000">1 sekund</string>
+    <string name="timeout_500">0,5 sekund</string>
+
+    <!-- Slim Shortcuts -->
+    <string name="slim_shortcut_picker">Slim akce</string>
+    <string name="shortcut_action_none">Žádné</string>
+    <string name="shortcut_action_app">Volitelné aplikace</string>
+    <string name="shortcut_action_home">Domů</string>
+    <string name="shortcut_action_back">Zpátky</string>
+    <string name="shortcut_action_kill">Ukončit aplikace</string>
+    <string name="shortcut_action_lastapp">Poslední aplikace</string>
+    <string name="shortcut_action_screenshot">Screenshot</string>
+    <string name="shortcut_action_menu">Menu</string>
+    <string name="shortcut_action_ime">Otevřít IME Switcher</string>
+    <string name="shortcut_action_power_menu">Menu vypnutí</string>
+    <string name="shortcut_action_recent">Nedávné</string>
+    <string name="shortcut_action_power">Vypnout obrazovku</string>
+    <string name="shortcut_action_search">Hledat v aplikaci</string>
+    <string name="shortcut_action_ring_vib">Zvonění/Vibrace</string>
+    <string name="shortcut_action_ring_silent">Zvonění/Tichý</string>
+    <string name="shortcut_action_ring_vib_silent">Zvonění/Vib/Tichý</string>
+    <string name="shortcut_action_camera">Kamera</string>
+    <string name="shortcut_action_media_next">Hudba - další skladba</string>
+    <string name="shortcut_action_media_play_pause">Hudba - play/pauza</string>
+    <string name="shortcut_action_media_previous">Hudba - předchozí skladba</string>
+    <string name="shortcut_action_wake_device">Vzbudit zařízení</string>
+
+    <string name="shortcut_action_longpress">Podržení:</string>
+    <string name="shortcut_action_select_action_longpress">Zvolit akci podržení:</string>
+    <string name="shortcut_action_select_action">Zvolit akci:</string>
+    <string name="shortcut_action_select_action_newaction">Zvolit novou akci:</string>
+    <string name="shortcut_action_reset">Reset</string>
+    <string name="shortcut_action_add">Přidat</string>
+    <string name="shortcut_action_reset_message">Obnovit všechny hodnoty na výchozí?</string>
+    <string name="shortcut_action_max">Byl dosažen maximální počet položek</string>
+    <string name="shortcut_action_warning">Varování</string>
+    <string name="shortcut_action_warning_message">Nelze smazat poslední položku</string>
+    <string name="shortcut_action_disable_message">Vypnuto\nPřidejte položku pro zapnutí</string>
+    <string name="shortcut_image_not_valid">Zvolená aplikace nemá platnou ikonu nebo nepodporuje ořezání obrazu. Použijte jinou aplikaci.</string>
+    <string name="shortcut_duplicate_entry">Zvolená akce nemůže být přidaná dvakrát.</string>
+    <string name="shortcut_action_help_shortcut">Zkratka</string>
+    <string name="shortcut_action_help_button">Tlačítko</string>
+    <string name="shortcut_action_help_app">Aplikace</string>
+    <string name="shortcut_action_help_icon">, při vybírání ikona otevře nastavení přizpůsobení</string>
+    <string name="shortcut_action_help_main">Pro přidání %1$s, zvolte ikonu Přidat. Když je %1$s přidána, zvolení linky změní cíl%2$s\n\nPro odebrání %1$s, odsuňte linku horizontálně doleva nebo doprava. Přesuňte %1$s v listu vertikálním přetažením kotvy nalevo.\n\nPro odstranění obnovte nastavení.</string>
+    <string name="shortcut_action_help_delete_last_entry">Smazání každé %1$s v listu vypne tuto funkci.</string>
+    <string name="shortcut_action_help_pie_sekund_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu koláče.</string>
+
+    <string name="shortcuts_applications">Aplikace</string>
+    <string name="shortcuts_select_custom_app_title">Zvolit aplikace</string>
+    <string name="shortcuts_icon_picker_type">Zvolit typ ikony:</string>
+    <string name="shortcuts_icon_default">Výchozí</string>
+    <string name="shortcuts_icon_presets">Systémové ikony</string>
+    <string name="shortcuts_icon_custom">Galerie</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Zvolte ikonu</string>
+
+    <string name="shortcuts_icon_picker_alarm">Alarm</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Baterie</string>
+    <string name="shortcuts_icon_picker_browser">Prohlížeč</string>
+    <string name="shortcuts_icon_picker_calendar">Kalendář</string>
+    <string name="shortcuts_icon_picker_camera">Kamera</string>
+    <string name="shortcuts_icon_picker_chrome">Google Chrome</string>
+    <string name="shortcuts_icon_picker_snapchat">Snapchat</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Kontakt</string>
+    <string name="shortcuts_icon_picker_directdial">Přímé vytáčení</string>
+    <string name="shortcuts_icon_picker_directmessage">Přímá zpráva</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Alternativní email</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Oblíbené</string>
+    <string name="shortcuts_icon_picker_file_browser">Prohlížeč Souborů</string>
+    <string name="shortcuts_icon_picker_file_browser2"> Alternativní prohlížeč souborů</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galerie</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_github">Github</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Pomoc</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Klíče/účty</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">poznámky</string>
+    <string name="shortcuts_icon_picker_office">Office Suite</string>
+    <string name="shortcuts_icon_picker_luggage">Cestování</string>
+    <string name="shortcuts_icon_picker_maps">Mapy</string>
+    <string name="shortcuts_icon_picker_market">Market</string>
+    <string name="shortcuts_icon_picker_messenger">Messenger</string>
+    <string name="shortcuts_icon_picker_movie">Filmy</string>
+    <string name="shortcuts_icon_picker_music">Hudba</string>
+    <string name="shortcuts_icon_picker_nav">Navigace</string>
+    <string name="shortcuts_icon_picker_phone">Telefon</string>
+    <string name="shortcuts_icon_picker_package">Balíček</string>
+    <string name="shortcuts_icon_picker_paypal">Paypal</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_quicksettings">Rychlé nastavení</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SD Karta</string>
+    <string name="shortcuts_icon_picker_search">Hledat</string>
+    <string name="shortcuts_icon_picker_sms">Zprávy</string>
+    <string name="shortcuts_icon_picker_tapatalk">Tapatalk</string>
+    <string name="shortcuts_icon_picker_tasks">Tasks</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Transit</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Odemknutí</string>
+    <string name="shortcuts_icon_picker_whatsapp">Whatsapp</string>
+    <string name="shortcuts_icon_picker_youtube">Youtube</string>
+
+    <!-- Navigation bar -->
+    <string name="nav_bar_title">Navigační lišta</string>
+    <string name="navbar_enable_bar_title">Tlačítka na nav. liště</string>
+    <string name="navbar_enable_bar_summary">Zapnout nav. lištu</string>
+    <string name="navbar_style_dimen_title">Rozměry nav. lišty</string>
+    <string name="navbar_dimensions_reset_message">Vrátit rozměry zpět na výchozí?</string>
+    <string name="navigation_bar_height_title">Výška nav. lišty</string>
+    <string name="navigation_bar_height_summary">Výška nav. lišty v režimu portrét</string>
+    <string name="navigation_bar_width_title">Šířka nav. lišty</string>
+    <string name="navigation_bar_width_summary">Šířka nav. lišty v režimu portrét</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (výchozí)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (výchozí)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (vyp.)</string>
+
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Hardwarové tlačítka</string>
+    <string name="hw_keys_summary">Zapnout hw. tlačítka</string>
+
+    <!-- Keyboard and Input ASS methods  -->
+    <string name="title_keyboard_input">Pokročilé nastavení</string>
+    <string name="disable_fullscreen_keyboard_title">Vypnout klávesnici na celou obrazovku</string>
+    <string name="disable_fullscreen_keyboard_summary">Při landscape módu klávesnice nebude nikdy pokrývat celou obrazovku</string>
+    <string name="keyboard_rotation_toggle_title">Automatické otočení</string>
+    <string name="keyboard_rotation_toggle_summary">Vynutit automatické otočení když je klávesnice viditelná</string>
+    <string name="keyboard_rotation_timeout_title">Prodleva otočení</string>
+    <string name="keyboard_rotation_timeout_summary">Vypne akcelerometr <xliff:g id="rotate_timeout">%1$s</xliff:g> sekundy po skrytí klávesnice</string>
+    <string name="keyboard_rotation_dialog">Tato funkce vynutí automatické otočení po dobu, co je klávesnice viditelná. Nemá žádný vliv když je funkce automatického otočení zapnuta.</string>
+    <string name="show_enter_key_title">Zobrazit tlačítko enter</string>
+    <string name="show_enter_key_summary">Vynutit zobrazení klávesy enter namísto klávesy emotikonu</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk screenshotu</string>
+    <string name="screenshot_sound_summary">Zahraje zvukový efekt při provedení screenshotu</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Monitor sítě</string>
+    <string name="show_network_traffic_state">Monitor sítě ve stavové liště</string>
+    <string name="network_traffic_summary">Zapne různé nastavení pro monitor sítě</string>
+    <string name="show_network_traffic_unit">Zobrazení jednotek</string>
+    <string name="show_network_traffic_frequency">Interval obnovení</string>
+    <string name="show_network_traffic_disable">Vypnuto</string>
+    <string name="show_network_traffic_up">Odchozí</string>
+    <string name="show_network_traffic_down">Příchozí</string>
+    <string name="show_network_traffic_all">Odchozí a příchozí</string>
+    <string name="show_network_traffic_bit">Bitů za sekundu</string>
+    <string name="show_network_traffic_byte">Bajtů za sekundu</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Automatické skrytí</string>
+    <string name="network_traffic_autohide_summary">Skrýt monitor když je síť neaktivní</string>
+    <string name="network_traffic_autohide_threshold">Práh aktivity</string>
+    <string name="network_traffic_color_style">Barva</string>
+    <string name="network_traffic_color_reset">Obnovit barvu</string>
+    <string name="network_traffic_color_reset_message">Obnovit nastavení monitoru na výchozí?</string>
+
+    <!-- Partition Info -->
+    <string name="partition_info_title">Zobrazit info o disku</string>
+    <string name="partition_info_summary">Zobrazí velikosti disků</string>   
+    <string name="partition_info_system">/system</string>
+    <string name="partition_info_data">/data</string>
+    <string name="partition_info_cache">/cache</string>
+    <string name="partition_info_sdcard">/sdcard (FAT)</string>
+    <string name="partition_info_sdext">/sd-ext (EXT)</string>
+    <string name="partition_info_used_of">/</string>
+
+    <!-- Sound settings -->
+    <string name="advanced_sound_title">Pokročilé nastavení</string>
+    <string name="sound_title">Zvuk</string>
+
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Zvuk hledáčku kamery</string>
+    <string name="camera_sounds_summary">Zapne zvuk hledáčku kamery</string>
+    <string name="camera_sound_warning_dialog_text">Vypnutí zvuku hledáčku je v některých zemích nelegální! Dělejte tak na vlastní riziko.</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="options_settings_title">Možnosti</string>
+    <string name="media_scanner_on_boot_title">Skenování médií při startu</string>
+    <string name="media_scanner_on_boot_enabled">Skenovat média</string>
+    <string name="media_scanner_on_boot_ask">Dotázat se na sken (notifikace)</string>
+    <string name="media_scanner_on_boot_disabled">Neskenovat média</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Barevná paleta</string>
+    <string name="press_color_to_apply">Stiskněte na barvu pro použití</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Nastavit</string>
+    <string name="color_default">Výchozí</string>
+
+    <!-- OmniSwitch -->
+    <string name="omniswitch_settings_title">OmniSwitch</string>
+    <string name="recents_use_omniswitch_title">Použít pro nedávné aplikace</string>
+    <string name="recents_use_omniswitch_summary">Použít OmniSwitch místo výchozího zobrazení nedávných aplikací</string>
+    <string name="omniswitch_start_settings_title">Nastavení</string>
+    <string name="omniswitch_start_settings_summary">Otevřít nastavení OmniSwitch</string>
+    <string name="omniswitch_first_time_title">Informace</string>
+    <string name="omniswitch_first_time_message">Ujistěte se, že jste OmniSwitch zapnuli v \"Nastavení\"</string>
+
+    <!-- Recents panel settings -->
+    <string name="recents_panel_title">Nedávno spuštěné aplikace</string>
+    <string name="recents_panel_settings">Nastavení nedávných aplikací</string>
+    <string name="show_clear_all_recents_button_title">Tlačítko smazání všech nedávných aplikací</string>
+    <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko smazání všech nedávných aplikací</string>
+    <string name="recents_clear_all_location_title">Pozice tlačítka</string>
+    <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+    <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
+    <string name="recents_clear_all_location_top_center">Uprostřed nahoře</string>
+    <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+    <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
+    <string name="recents_clear_all_location_bottom_center">Uprostřed dole</string>
+    <string name="recents_clear_all_dismiss_all_title">Smazat všechny nedávné aplikace</string>
+    <string name="recents_clear_all_dismiss_all_summary">Vyberte si, zda se mají smazat všechny aplikace nebo jestli se má ignorovat aplikace v popředí</string>
+    <string name="recents_show_membar_title">Volná paměť</string>
+    <string name="recents_show_membar_summary">Ukázat volnou paměť zařízení</string>
+
+    <!-- Toast animations -->
+    <string name="toast_animation_title">Toast animace</string>
+    <string name="toast_animation_summary">Zvolte a vyberte systémovou toast animaci</string>
+    <string name="toast_none_animation">Žádná</string>
+    <string name="toast_default_animation">Výchozí</string>
+    <string name="toast_fade_animation">Vymizení</string>
+    <string name="toast_SlideRight_animation">Přiletění zprava</string>
+    <string name="toast_SlideLeft_animation">Přiletění zleva</string>
+    <string name="toast_Xylon_animation">Xylon animace</string>
+    <string name="toast_Toko_animation">Toko animace</string>
+    <string name="toast_Tn_animation">Tn animace</string>
+    <string name="toast_Honami_animation">Honami animace</string>
+    <string name="toast_FastFade_animation">Rychlé vymizení</string>
+    <string name="toast_GrowFade_animation">Vzrůstající vymizení</string>
+    <string name="toast_GrowFadeCenter_animation">Vzrůstání ze středu</string>
+    <string name="toast_GrowFadeBottom_animation">Vzrůstání zespodu</string>
+    <string name="toast_Translucent_animation">Průsvitná animace</string>
+    <string name="toast_SlideLeftRight_animation">Přiletět zleva doprava</string>
+    <string name="toast_SlideRightLeft_animation">Přiletět zprava doleva</string>
+
+    <!-- ListView animation -->
+    <string name="interface_settings_animation_title">Možnosti animací</string>
+    <string name="listview_animation_title">ListView animace</string>
+    <string name="listview_off">Výchozí</string>
+    <string name="listview_wave_left">Vlna (zleva)</string>
+    <string name="listview_wave_right">Vlna (zprava)</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_scale">Měřítko</string>
+    <string name="listview_stack_top">Skládání (shora)</string>
+    <string name="listview_stack_bottom">Skládání (zespodu)</string>
+    <string name="listview_unfold">Rozložit</string>
+    <string name="listview_fold">Složit</string>
+    <string name="listview_translate_left">Překládat (zleva)</string>
+    <string name="listview_translate_right">Překládat (zprava)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">ListView interpolátor</string>
+    <string name="listview_accelerate_interpolator">Zrychlit</string>
+    <string name="listview_decelerate_interpolator">Zpomalit</string>
+    <string name="listview_accelerate_decelerate_interpolator">Zrychlit a zpomalit</string>
+    <string name="listview_anticipate_interpolator">Předběhnout</string>
+    <string name="listview_overshoot_interpolator">Přestřelit</string>
+    <string name="listview_anticipate_overshoot_interpolator">Předběhnout a přestřelit</string>
+    <string name="listview_bounce_interpolator">Skákat</string>
+
+    <!-- Lockscreen Shortcuts -->
+    <string name="lockscreen_shortcuts_title">Zkratky</string>
+    <string name="lockscreen_shortcuts_summary">Zobrazit a změnit zkratky na zamknuté obrazovce</string>
+    <string name="lockscreen_shorcuts_longpress_title">Podržení zkratek</string>
+    <string name="lockscreen_shorcuts_longpress_summary">Otevře nastavení aplikací při dlouhém podržení zkratky</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Kroky hlasitosti</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+    <string name="volume_steps_alarm_title">Alarm</string>
+    <string name="volume_steps_dtmf_title">DTMF</string>
+    <string name="volume_steps_music_title">Hudba</string>
+    <string name="volume_steps_notification_title">Notifikace</string>
+    <string name="volume_steps_ring_title">Zvonění</string>
+    <string name="volume_steps_system_title">Systém</string>
+    <string name="volume_steps_voice_call_title">Volání</string>
+
+    <!-- AOKP custom system animations -->  
+    <string name="aokp_animation_title">Systémové animace</string>
+    <string name="aokp_animation_summary">Systémové animace AOKP</string>
+    <string name="animation_exit_only_title">Jen vstupní animace</string>
+    <string name="animation_reverse_exit_title">Převrácená animace odchodu</string>
+    <string name="activity_open_title">Otevření aktivity</string>
+    <string name="activity_close_title">Zavření aktivity</string>
+    <string name="task_open_title">Otevření úkolu</string>
+    <string name="task_close_title">Zavření úkolu</string>
+    <string name="task_move_to_front_title">Přesunutí do popředí</string>
+    <string name="task_move_to_back_title">Přesunutí do pozadí</string>
+    <string name="wallpaper_open_title">Otevření tapety</string>
+    <string name="wallpaper_close_title">Zavření tapety</string>
+    <string name="wallpaper_intra_open_title">Otevření intra tapety</string>
+    <string name="wallpaper_intra_close_title">Zavření intra tapety</string>
+    <string name="task_open_behind_title">Otevření úkolu v pozadí</string>
+    <string name="animation_duration_title">Délka animace</string>
+    <string name="animation_duration_default">Výchozí</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrovat při dotyku</string>
+    <string name="quick_settings_vibrate_summary">Vibrovat při dotyku zkratek v rychlém nastavení</string>
+
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">Indikátor root přístupu</string>
+    <string name="su_indicator_summary">Ukázat indikátor root přístupu jsou-li používána root práva nějakou aplikací</string>
+
+    <!-- Volume pane timeout -->
+    <string name="category_panel_time_out">Prodleva panelu</string>
+    <string name="volume_panel_time_out_title">Prodleva panelu hlasitosti</string>
+    <string name="volume_panel_time_out_summary">Skrýt po uplynutí <xliff:g id="number">%d</xliff:g> sekundy. Skrýt automaticky při klepnutí mimo panel.</string>
+    <string name="volume_panel_time_out_1sec">1 sekunda</string>
+    <string name="volume_panel_time_out_3sec">3 sekundy (výchozí)</string>
+    <string name="volume_panel_time_out_5sec">5 sekund</string>
+    <string name="volume_panel_time_out_8sec">8 sekund</string>
+    <string name="volume_panel_time_out_12sec">12 sekund</string>
+    <string name="volume_panel_time_out_15sec">15 sekund</string>
+
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Dvojitý stisk pro uzamčení</string>
+    <string name="double_tap_sleep_nav_bar_summary">Dvojitý stisk na stavovou lištu zamkne zařízení</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Vynutit rozšířené notifikace</string>
+    <string name="notification_force_expand_summary">Vynutí rozšířené notifikace aplikací, které to podporují</string>
+
+    <!-- Animation Control -->
+    <string name="screen_and_animations_title">Řízení animací</string>
+
+    <!-- Storage Notification Enhancement -->
+    <string name="storage_options_category">Notifikace</string>
+    <string name="storage_menu_options">pokročilé</string>
+    <string name="storage_title_options">Možnosti úložiště</string>
+    <string name="no_media_notification_title">Notifikace odebrání úložiště</string>
+    <string name="no_media_notification_summary">Ukázat notifikaci při odebrání nebo odpojení úložiště</string>
+    <string name="mount_notification_title">Notifikace připojeného úložiště</string>
+    <string name="mount_notification_summary">Ukázat notifikaci při připojené SD kartě nebo USB úložišti</string>
+
+   <!-- Instant reboot -->
+   <string name="advanced_reboot_oneclick">Rychlý restart</string>
+   <string name="advanced_reboot_oneclick_summary">Ihned restartuje zařízení</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Hodiny</string>
+    <string name="status_bar_date_title">Datum</string>
+    <string name="status_bar_date_none">Skryté (výchozí)</string>
+    <string name="status_bar_date_small">Malé</string>
+    <string name="status_bar_date_normal">Normální</string>
+    <string name="status_bar_date_format_title">Formát data</string>
+    <string name="status_bar_date_style">Styl data</string>
+    <string name="status_bar_date_style_normal">Normální</string>
+    <string name="status_bar_date_style_lowercase">Malé písmena</string>
+    <string name="status_bar_date_style_uppercase">Velké písmena</string>
+    <string name="status_bar_date_format_custom">Java formát</string>
+    <string name="status_bar_date_string_edittext_title">Musí být ve formátu DateFormat např. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Vložit řetězec</string>
+
+    <!-- Heads Up -->
+    <string name="category_heads_up">Heads up notifikace</string>
+    <string name="summary_heads_up_enabled">Pop-up notifikace jsou zapnuté</string>
+    <string name="summary_heads_up_disabled">Pop-up notifikace jsou vypnuté</string>
+    <string name="add_heads_up_package">Přidat aplikaci</string>
+    <string name="add_heads_up_dnd_summary">Neukazovat heads up v těchto aplikacích</string>
+    <string name="add_heads_up_blacklist_summary">Neukazovat heads up od těchto aplikací</string>
+    <string name="heads_up_dnd_title">Nerušit</string>
+    <string name="heads_up_blacklist_title">Černá listina</string>
+    <string name="heads_up_disabled_notice">Pro povolení zobrazení interaktivních pop-up notifikací zapněte heads up.</string>
+    <string name="heads_up_dismiss_on_remove_title">Chování při swipe akci</string>
+    <string name="heads_up_dismiss_on_remove_summary_enabled">Skrýt notifikaci namísto jejich zamítnutí</string>
+    <string name="heads_up_dismiss_on_remove_summary_disabled">Skrýt a zamítnout notifikaci</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Časová prodleva</string>
+    <string name="heads_up_time_out_summary">Notifikace budou zobrazeny <xliff:g id="number">%d</xliff:g> sekundy</string>
+    <string name="heads_up_time_out_never_summary">Notifikace budou zobrazeny dokud nebudou zamítnuty</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+    <string name="heads_up_time_out_never">Nikdy</string>
+
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Detekce intern. připojení</string>
+    <string name="captive_portal_detection_summary">Při vypnutí není potřeba připojení na Google servery pro detekování internetového připojení.</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Zapnout navigační prstenec</string>
+
+    <!-- Heads up touch outside -->
+    <string name="heads_up_touch_outside_title">Akce při stisku mimo</string>
+    <string name="heads_up_touch_outside_summary_enabled">Skrýt notifikaci při stisku mimo ní nebo při stisku tlačítka domů</string>
+    <string name="heads_up_touch_outside_summary_disabled">neskrývat notifikaci při stisku mimo ní nebo při stisku tlačítka domů</string>
+
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Gesta kdekoliv</string>
+    <string name="gesture_anywhere_enabled_title">Gesta kdekoliv</string>
+    <string name="gesture_anywhere_enabled_summary">Zapne nebo vypne funkci gesta kdekoliv</string>
+    <string name="gesture_anywhere_position_title">Lokace</string>
+    <string name="gesture_anywhere_position_left">Levý roh</string>
+    <string name="gesture_anywhere_position_right">Pravý roh</string>
+    <string name="gesture_anywhere_gestures_title">Gesta</string>
+    <string name="gesture_anywhere_gestures_summary">Přidat, upravit a odstranit gesta</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Přidat gesto</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Obnovit</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Zrušit</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Uložit</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Jméno</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">Musíte vložit jméno</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Gesto uloženo v %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Zrušit</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Nahrávám gesta...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">Žádná gesta</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Gesta</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Upravit</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Smazat</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Gesto smazáno</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Přejmenovat gesto</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Jméno gesta</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="ga_gestures_error_loading">Nepodařilo se načíst %s. Ujistěte se že máte k dispozici úložiště.</string>
+    <string name="trigger_category">Spouštěcí oblast</string>
+    <string name="trigger_width_title">Šířka oblasti</string>
+    <string name="trigger_width_summary">Upravte šířku spouštěcí oblasti</string>
+    <string name="trigger_top_title">Pozice oblasti</string>
+    <string name="trigger_top_summary">Upravte vertikální pozici spouštěcí oblasti</string>
+    <string name="trigger_bottom_title">Výška oblasti</string>
+    <string name="trigger_bottom_summary">Upravte výšku spouštěcí oblasti</string>
+    <string name="picker_activities">Aktivity</string>
+    <string name="select_custom_app_title">Zvolte aplikace</string>
+    <string name="select_custom_activity_title">Zvolte uživatelskou aktivitu</string>
+    <string name="profile_applist_title">Aplikace</string>
+
+    <!-- App Circle sidebar -->
+    <string name="category_app_circle_bar_title">Spouštěč aplikací</string>
+    <string name="app_circle_bar_title">Spouštěcí kruh aplikací</string>
+    <string name="app_circle_bar_summary">Ukázat kruh aplikací při dotknutí pravé strany zařízení</string>
+    <string name="app_circle_bar_included_apps_title">Zahrnuté aplikace</string>
+    <string name="app_circle_bar_included_apps_summary">Aplikace budou na spouštěči aplikací</string>
+    <string name="trigger_width_title">Šířka oblasti</string>
+    <string name="trigger_width_summary">Upravte šířku spouštěcí oblasti</string>
+    <string name="trigger_top_title">Pozice oblasti</string>
+    <string name="trigger_top_summary">Upravte vertikální pozici spouštěcí oblasti</string>
+    <string name="trigger_bottom_title">Výška oblasti</string>
+    <string name="trigger_bottom_summary">Upravte výšku spouštěcí oblasti</string>
+
+    <!-- QuickSettings tiles -->
+    <string name="qs_screenshot_tile">Screenshot</string>
+    <string name="qs_sync_tile">Synchronizace</string>
+    <string name="qs_navbar_tile">Navigační lišta</string>
+
+    <!-- Status bar ticker -->
+    <string name="status_bar_ticker_title">Text notifikací</string>
+    <string name="status_bar_ticker_summary">Animace oznamovacího textu ve stavové liště</string>
+
+    <!-- Pie control -->
+    <string name="pie_control_title">Pie ovládání</string>
+    <string name="pie_control_summary">Zapne tzv. ovládání Pie</string>
+    <string name="pie_control_size">Velikost navigace</string>
+    <string name="pie_control_trigger_positions">Možnosti pozice</string>
+    <string name="pie_control_trigger_left">Spoušť z levé strany obrazovky</string>
+    <string name="pie_control_trigger_bottom">Spoušť z spodní strany obrazovky</string>
+    <string name="pie_control_trigger_right">Spoušť z pravé strany obrazovky</string>
+    <string name="pie_control_trigger_top">Spoušť z vrchní strany obrazovky</string>
+    <string name="pie_control_trigger_top_summary">Při spoušti z vrchní strany obrazovky se nezobrazuje info o zařízení</string>
+    <string name="pie_button_style">Styl tlačítek</string>
+    <string name="pie_button_color_title">Barva tlačítek</string>
+    <string name="pie_button_alpha_title">Průhlednost tlačítek</string>
+    <string name="pie_button_outline_color_title">Barva obrysu písma</string>
+    <string name="pie_button_pressed_color_title">Barva stisknutého tlačítka</string>
+    <string name="pie_button_long_pressed_color_title">Barva dlouhého stisku tlačítka</string>
+    <string name="pie_button_pressed_alpha_title">Průhlednost stisknutého tlačítka</string>
+    <string name="pie_icon_style">Styl ikon</string>
+    <string name="pie_icon_color_title">Barva ikon</string>
+    <string name="pie_icon_color_mode_title">Mód barev ikon</string>
+    <string name="pie_icon_color_mode_dialog_title">Obarvení</string>
+    <string name="pie_icon_color_mode_summary">Změní barevný mód tlačítek</string>
+    <string name="pie_trigger_note_title">Poznámka</string>
+    <string name="pie_trigger_note_summary">Aby se předešlo konfliktům z navigační lištou nebo stavovým řádkem, spouštěcí oblasti na těchto stranách jsou automaticky vypnuty</string>
+    <string name="pie_background_color_title">Barva pozadí</string>
+    <string name="pie_snap_color_title">Barva snapu</string>
+    <string name="pie_text_color_title">Barva textu</string>
+    <string name="pie_background_alpha_title">Průhlednost pozadí</string>
+    <string name="pie_mirror_right_title">Zrcadlit pravý pie</string>
+    <string name="pie_mirror_right_summary">MZrcadlit pravý pie na horizontální ose</string>
+    <string name="pie_style">Styl a dimenze</string>
+    <string name="pie_style_title">Styl</string>
+    <string name="pie_dimens_title">Dimenze</string>
+    <string name="pie_additional_options">Další možnosti</string>
+    <string name="pie_show_snap_title">Zobrazit snap body</string>
+    <string name="pie_show_snap_summary">Ukáže snap body pro dynamické změnění jejich spouštěcích pozic</string>
+    <string name="pie_show_text_title">Ukázat info o zařízení</string>
+    <string name="pie_show_text_summary">Ukáže info o zařízení, datum a hodiny</string>
+    <string name="pie_show_background_title">Ukázat pozadí</string>
+    <string name="pie_show_background_summary">Zapnout pozadí pie</string>
+    <string name="pie_button">Tlačítka</string>
+    <string name="pie_button_sekund_layer">Druhá vrstva tlačítek</string>
+    <string name="pie_button_sekund_layer_summary">Změňte tlačítka druhé vrstvy</string>
+    <string name="pie_button_style_summary">Změnit styl tlačítek</string>
+    <string name="pie_style_reset_message">Obnovit styly na výchozí?</string>
+    <string name="shortcut_action_help_pie_sekund_layer_delete_last_entry">Smazání každé %1$s v listu vypne druhou vrstvu tlačítek pie.</string>
+    <string name="icon_color_mode_all_icons">Všechny ikony</string>
+    <string name="icon_color_mode_system_icons">Systémové ikony</string>
+    <string name="icon_color_mode_system_custom_icons">Systémové a uživatelské ikony</string>
+    <string name="pie_disable_ime_triggers_title">Interakce s klávesnicí</string>
+    <string name="pie_disable_ime_triggers_summary">Zmenší velikost levé a pravé spouštěcí oblasti</string>
+    <string name="pie_trigger_sensitivity_title">senzitivita oblasti</string>
+    <string name="pie_trigger_sensitivity_summary">Změní senzitivitu spouštěcí oblasti</string>
+
+
+    <!-- Navigation bar visibility -->
+    <string name="navigation_menu_default_jb_behavior">Ukázat při potřebě (výchozí)</string>
+    <string name="navigation_menu_never_show">Neukazovat nikdy</string>
+    <string name="navigation_menu_always_show">Vždy ukázat</string>
+    <string name="title_pref_menu_display">Zobrazení menu</string>
+    <string name="summary_pref_menu_display">Kdy a jak chcete aby se navigační tlačítka zobrazovala?</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_icon">Styl ikony baterky</string>
+    <string name="battery_not_title">Ikona baterie u notifikací</string>
+    <string name="battery_not_summary">Ikona baterky se objeví tam, kde se ukáže tlačítko odstranit vše</string>
+    <string name="battery_bar_location">Lokace pruhu baterky</string>
+    <string name="battery_bar_color">Barva pruhu baterky</string>
+    <string name="battery_bar">Možnosti pruhu baterky</string>
+    <string name="battery_bar_style_title">Styl pruhu baterky</string>
+    <string name="battery_bar_thickness_title">Šířka pruhu baterky</string>
+    <string name="battery_bar_animate_title">Animace nabíjení</string>
+    <string name="battery_bar_animate_summary">Animace nabíjení může negativně ovlivnit Vaší zkušenost</string>
+
+    <!-- Show carrier label and custom -->
+    <string name="carrier_options">Jméno operátora</string>
+    <string name="show_status_bar_carrier_title">Jméno operátora</string>
+    <string name="show_status_bar_carrier_summary">Jméno operátora ve stavové liště</string>
+    <string name="custom_carrier_label_title">Uživatelské jméno operátora</string>
+    <string name="custom_carrier_label_explain">Prosím vložte nové jméno. Pro původní jméno nechte prázdné.</string>
+    <string name="custom_carrier_label_notset">Uživatelské jméno operátora není nastaveno</string>
+    <string name="status_bar_carrier_color">Barva jména operátora</string>
+
+    <!-- Data activity icons -->
+    <string name="status_bar_show_network_activity_title">Síťová aktivita</string>
+
+    <!-- Status bar - Clock -->
+    <string name="clock_color_title">Barva</string>
+    <string name="status_bar_clock_style_reset">Obnovit barvu</string>
+    <string name="status_bar_clock_style_reset_message">Obnovit původní barvu hodin?</string>
+    <string name="clock_font_style_title">Písmo</string>
+    <string name="clock_font_bold">Tučné</string>
+    <string name="clock_font_condensed">Zhuštěné</string>
+    <string name="clock_font_light">Light</string>
+    <string name="clock_font_light_italic">Light Italic</string>
+    <string name="clock_font_normal">Normalní</string>
+
+    <!-- Doze pulse (ambient display) options -->
+    <string name="doze_overwrite_value_title">Přepsat hodnotu</string>
+    <string name="doze_overwrite_value_summary">Umožní přepsat výchozí hodnotu vámi nastavenou hodnotou</string>
+
+    <string name="doze_list_mode_title">Ambientní display</string>
+    <string name="doze_list_mode_summary">Možnosti k nastavení ambietního displaye</string>
+
+    <string name="doze_pulse_title">Nastavení času</string>
+    <string name="doze_pulse_duration_in_title">Fade in</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+
+    <string name="doze_pulse_duration_visible_title">Doba zobrazení</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+
+    <string name="doze_pulse_duration_out_title">Fade out</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+
+    <string name="doze_pulse_on_notifications_title">Pulsovat</string>
+    <string name="doze_pulse_on_notifications_summary">Displej bude pulsovat při oznámení</string>
+
+    <string name="doze_shake_title">Nastavení zatřesení</string>
+    <string name="doze_shake_mode_title">Mód zatřesení</string>
+    <string name="doze_shake_mode_summary">Použít akcelerometr ke spuštění</string>
+    <string name="doze_shake_mode_test_summary">Chcete zkusit akcelerometr?</string>
+    <string name="doze_shake_mode_test_result">Aplikovat tuto hodnotu?</string>
+    <string name="doze_shake_test">Zatřeste zařízením</string>
+    <string name="doze_shake_it">Zatřesení detekováno!</string>
+
+    <string name="doze_shake_acc_threshold_title">Práh zatřesení</string>
+    <string name="doze_shake_acc_threshold_summary">Nastavte sílu zatřesení potřebného k aktivaci</string>
+
+    <string name="doze_time_mode_title">Ukázat čas a datum</string>
+    <string name="doze_time_mode_summary">Vynutit zobrazení data a času i když nejsou žádná oznámení</string>
+
+    <string name="twohundred_ms">200 ms</string>
+    <string name="fivehundred_ms">500 ms</string>
+    <string name="one_sekund">1 s</string>
+    <string name="one_sekund_default">1 s (výchozí)</string>
+    <string name="onehalf_sekund">1.5 s</string>
+    <string name="two_sekund">2 s</string>
+    <string name="twohalf_sekund">2.5 s</string>
+    <string name="three_sekund">3 s</string>
+    <string name="three_sekund_default">3 s (výchozí)</string>
+    <string name="threehalf_sekund">3.5 s</string>
+    <string name="four_sekund">4 s</string>
+    <string name="fourhalf_sekund">4.5 s</string>
+    <string name="five_sekund">5 s</string>
+
+    <string name="veryeasy_shake">Velmi lehké</string>
+    <string name="easy_shake">Lehké</string>
+    <string name="medium_shake">Výchozí</string>
+    <string name="hard_shake">Těžké</string>
+    <string name="veryhard_shake">Velmi těžké</string>
+    <string name="strong_shake">Silné</string>
+
+    <string name="fully_mode">Kompletní mód</string>
+    <string name="pocket_shake_mode">Kapsa a zatřesení</string>
+    <string name="pocket_pulse_mode">Kapsa a pulsování</string>
+    <string name="pocket_only_mode">Kapsa</string>
+    <string name="shake_pulse_mode">Zatřesení a pulsování</string>
+    <string name="pulse_only_mode">Pulsování (výchozí)</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_error">Nepodařilo se načíst changelog</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Ukázat čtyři tlačítka na řádek</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restartovat SystemUI</string>
+
+</resources>
