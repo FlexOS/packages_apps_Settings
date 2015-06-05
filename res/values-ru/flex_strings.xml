@@ -409,7 +409,7 @@
     <string name="mount_notification_summary">Показывать уведомление подключения носителя</string>
 
    <!-- Instant reboot -->
-   <string name="advanced_reboot_oneclick">Перезагрузка одним нажатие<м/string>
+   <string name="advanced_reboot_oneclick">Перезагрузка одним нажатие</string>
    <string name="advanced_reboot_oneclick_summary">Мгновенно вызывать перезагрузку</string>
 
     <!--Status bar date -->
