@@ -52,6 +52,12 @@
         android:fragment="com.android.settings.flex.ScreenAndAnimations"
         android:title="@string/screen_and_animations_title"
         android:icon="@drawable/ic_settings_anim" />
+    
+            <PreferenceScreen
+            android:key="overscroll_effects"
+            android:title="@string/ui_overscroll_title"
+            android:summary="@string/overscroll_weight_summary"
+            android:fragment="com.android.settings.flex.OverscrollEffects" />
 
     <!-- App circle bar -->
     <PreferenceScreen
@@ -65,6 +71,7 @@
         android:key="gesture_anywhere"
         android:fragment="com.android.settings.flex.gestureanywhere.GestureAnywhereSettings"
         android:title="@string/gesture_anywhere_title" 
-         android:icon="@drawable/ic_settings_ga" />
+        android:icon="@drawable/ic_settings_ga" />
+    
 
 </PreferenceScreen>
