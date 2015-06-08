@@ -81,10 +81,6 @@ public class QSTileHolder {
                 resourceName = "ic_qs_signal_full_4";
                 stringId = R.string.qs_tile_cellular_data;
                 break;
-            case QSConstants.TILE_FLEX_CONTROL:
-                resourceName = "ic_qs_flex_control";
-                stringId = R.string.qs_flexcontrol_tile;
-                break;
             case QSConstants.TILE_AIRPLANE:
                 resourceName = "ic_signal_airplane_disable";
                 stringId = R.string.qs_tile_airplane_mode;
