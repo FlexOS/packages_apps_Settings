@@ -538,6 +538,7 @@
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_sync_tile">Sync</string>
     <string name="qs_navbar_tile">Navigation Bar</string>
+    <string name="qs_flexcontrol_tile">FlexControl</string>
 
     <!-- Status bar ticker -->
     <string name="status_bar_ticker_title">Notification Ticker</string>
