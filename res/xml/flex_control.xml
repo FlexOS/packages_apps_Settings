@@ -66,5 +66,11 @@
         android:fragment="com.android.settings.flex.gestureanywhere.GestureAnywhereSettings"
         android:title="@string/gesture_anywhere_title" 
          android:icon="@drawable/ic_settings_ga" />
+		 
+	<!-- Proximity on wake -->
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_on_wake_title"
+        android:summary="@string/proximity_on_wake_summary" />
 
 </PreferenceScreen>
