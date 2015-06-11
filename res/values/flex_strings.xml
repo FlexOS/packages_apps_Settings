@@ -702,10 +702,6 @@
     <string name="pocket_only_mode">Pocket</string>
     <string name="shake_pulse_mode">Shake and pulse</string>
     <string name="pulse_only_mode">Pulse (default)</string>
-	
-	<!-- Proximity on wake -->
-	<string name="proximity_on_wake_title">Proximity on wake</string>
-    <string name="proximity_on_wake_summary">Check the proximity sensor during wakeup.</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
