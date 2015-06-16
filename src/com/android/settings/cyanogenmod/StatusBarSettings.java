@@ -199,6 +199,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         enableStatusBarBatteryDependents(batteryStyle);
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
 
+        if (TelephonyManager.getDefault().getPhoneCount() <= 1) {
+            removePreference(Settings.System.STATUS_BAR_MSIM_SHOW_EMPTY_ICONS);
+        }
+
         mTicker = (SwitchPreference) prefSet.findPreference(KEY_STATUS_BAR_TICKER);
         final boolean tickerEnabled = systemUiResources.getBoolean(systemUiResources.getIdentifier(
                     "com.android.systemui:bool/enable_ticker", null, null));
