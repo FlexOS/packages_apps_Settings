@@ -223,7 +223,7 @@
 
     <!-- Partition Info -->
     <string name="partition_info_title">Информация о разделах памяти</string>
-    <string name="partition_info_summary">Показать информацию о разделах памяти устройства</string>   
+    <string name="partition_info_summary">Показать информацию о разделах памяти устройства</string>
     <string name="partition_info_system">/система</string>
     <string name="partition_info_data">/данные</string>
     <string name="partition_info_cache">/кэш</string>
@@ -350,7 +350,7 @@
     <string name="volume_steps_system_title">Система</string>
     <string name="volume_steps_voice_call_title">Голосовой вызов</string>
 
-    <!-- AOKP custom system animations -->  
+    <!-- AOKP custom system animations -->
     <string name="aokp_animation_title">Анимация системы</string>
     <string name="aokp_animation_summary">Настройки анимации «AOKP»</string>
     <string name="animation_exit_only_title">Анимировать только появление</string>
@@ -380,7 +380,7 @@
     <!-- Volume pane timeout -->
     <string name="category_panel_time_out">Таймаут</string>
     <string name="volume_panel_time_out_title">Таймаут панели громкости</string>
-    <string name="volume_panel_time_out_summary">Закрывать через <xliff:g id="number">%d</xliff:g>, либо при касании экрана</string>
+    <string name="volume_panel_time_out_summary">Закрывать через <xliff:g id="number">%d</xliff:g> с, либо при касании экрана</string>
     <string name="volume_panel_time_out_1sec">1 с</string>
     <string name="volume_panel_time_out_3sec">3 с (по умолчанию)</string>
     <string name="volume_panel_time_out_5sec">5 с</string>
@@ -415,7 +415,7 @@
     <!--Status bar date -->
     <string name="status_bar_clock_category">Часы</string>
     <string name="status_bar_date_title">Дата</string>
-    <string name="status_bar_date_none">Скрывать (по умолчанию)</string>
+    <string name="status_bar_date_none">Скрытая (по умолчанию)</string>
     <string name="status_bar_date_small">Мелкая</string>
     <string name="status_bar_date_normal">Нормальная</string>
     <string name="status_bar_date_format_title">Формат даты</string>
@@ -424,7 +424,7 @@
     <string name="status_bar_date_style_lowercase">Нижний регистр</string>
     <string name="status_bar_date_style_uppercase">Верхний регистр</string>
     <string name="status_bar_date_format_custom">Настраиваемый формат</string>
-    <string name="status_bar_date_string_edittext_title">Должен быть в формате даты,  например: дд/мм/гг</string>
+    <string name="status_bar_date_string_edittext_title">Должен быть в формате даты, например: дд/мм/гг</string>
     <string name="status_bar_date_string_edittext_summary">Введите значение</string>
 
     <!-- Heads Up -->
@@ -443,7 +443,7 @@
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Таймаут</string>
-    <string name="heads_up_time_out_summary">Показывать уведомление <xliff:g id="number">%d</xliff:g></string>
+    <string name="heads_up_time_out_summary">Показывать уведомление <xliff:g id="number">%d</xliff:g> с</string>
     <string name="heads_up_time_out_never_summary">Показывать, пока не будет отклонено</string>
     <string name="heads_up_time_out_2sec">2 с</string>
     <string name="heads_up_time_out_4sec">4 с</string>
@@ -538,7 +538,6 @@
     <string name="qs_screenshot_tile">Скриншот</string>
     <string name="qs_sync_tile">Синхронизация</string>
     <string name="qs_navbar_tile">Панель навигации</string>
-    <string name="qs_flexcontrol_tile">Настройки Flex</string>
 
     <!-- Status bar ticker -->
     <string name="status_bar_ticker_title">Счётчик уведомлений</string>
@@ -600,7 +599,7 @@
 
 
     <!-- Navigation bar visibility -->
-    <string name="navigation_menu_default_jb_behavior">Показывать по запросу (по умолчанию)</string>
+    <string name="navigation_menu_default_jb_behavior">Показывать когда нужна  (по умолчанию)</string>
     <string name="navigation_menu_never_show">Никогда не показывать</string>
     <string name="navigation_menu_always_show">Всегда показывать</string>
     <string name="title_pref_menu_display">Отображение кнопки меню</string>
@@ -702,10 +701,6 @@
     <string name="pocket_only_mode">Карман</string>
     <string name="shake_pulse_mode">Тряска и Пробуждение</string>
     <string name="pulse_only_mode">Пробуждение (по умолчанию)</string>
-	
-	<!-- Proximity on wake -->
-	<string name="proximity_on_wake_title">Будить датчиком приближения</string>
-    <string name="proximity_on_wake_summary">Коснитесь датчика приближения чтобы разбудить устройство.</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
@@ -768,7 +763,7 @@
     <!-- Security & location settings screen, change unlock gesture screen instruction on top of screen after too many incorrect attempts -->
     <string name="lockgesture_too_many_failed_confirmation_attempts_header">Слишком много неверных попыток!</string>
     <!-- Security & location settings screen, change unlock gesture screen countdown hint on bottom of screen after too many incorrect attempts -->
-    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Попробуйте снова через <xliff:g id="number">%d</xliff:g> секунд.</string>
+    <string name="lockgesture_too_many_failed_confirmation_attempts_footer">Попробуйте снова через <xliff:g id="number">%d</xliff:g> с.</string>
     <!-- Toast shown if setting gesture was successful -->
     <string name="lockpassword_gesture_set_toast">Жест установлен</string>
     <!-- Header on gesture confirm screen [CHAR LIMIT=30] -->
